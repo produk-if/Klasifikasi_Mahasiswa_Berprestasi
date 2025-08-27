@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2025-08-27T13:44:38.227696",
+    "stats": {
+      "original_mahasiswa": 112,
+      "original_prestasi": 242,
+      "cleaned_mahasiswa": 112,
+      "cleaned_prestasi": 0,
+      "removed_records": 242
+    }
+  }
+]

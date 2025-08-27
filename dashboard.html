@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasifikasi Mahasiswa Berprestasi</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-tab {
+            padding: 15px 30px;
+            margin: 0 5px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .nav-tab:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .nav-tab.active {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .card-header i {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: #667eea;
+        }
+
+        .card-header h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .stat-card i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            opacity: 0.8;
+        }
+
+        .stat-card h4 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            opacity: 0.9;
+            font-size: 1rem;
+        }
+
+        .file-upload {
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            background: rgba(102, 126, 234, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .file-upload:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #764ba2;
+        }
+
+        .file-upload i {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-danger {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+        }
+
+        .btn-success {
+            background: linear-gradient(45deg, #27ae60, #2ecc71);
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .data-table th {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .data-table tr:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #ecf0f1;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            transition: width 0.3s ease;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            font-weight: 500;
+        }
+
+        .alert-success {
+            background: rgba(39, 174, 96, 0.1);
+            color: #27ae60;
+            border-left: 4px solid #27ae60;
+        }
+
+        .alert-warning {
+            background: rgba(243, 156, 18, 0.1);
+            color: #f39c12;
+            border-left: 4px solid #f39c12;
+        }
+
+        .alert-danger {
+            background: rgba(231, 76, 60, 0.1);
+            color: #e74c3c;
+            border-left: 4px solid #e74c3c;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .nav-tabs {
+                flex-direction: column;
+            }
+            
+            .nav-tab {
+                margin: 5px 0;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-graduation-cap"></i> Klasifikasi Mahasiswa Berprestasi</h1>
+            <p>Sistem Analisis Data Prestasi Mahasiswa dengan Fuzzy KNN</p>
+        </div>
+
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showTab('data-prestasi')">
+                <i class="fas fa-trophy"></i> Data Prestasi
+            </button>
+            <button class="nav-tab" onclick="showTab('data-ipk')">
+                <i class="fas fa-chart-line"></i> Data IPK
+            </button>
+            <button class="nav-tab" onclick="showTab('data-cleaning')">
+                <i class="fas fa-broom"></i> Data Cleaning
+            </button>
+            <button class="nav-tab" onclick="showTab('visualisasi')">
+                <i class="fas fa-chart-bar"></i> Visualisasi
+            </button>
+        </div>
+
+        <!-- Tab Data Prestasi -->
+        <div id="data-prestasi" class="tab-content active">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-trophy"></i>
+                    <h4 id="total-prestasi">0</h4>
+                    <p>Total Prestasi</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h4 id="total-mahasiswa-prestasi">0</h4>
+                    <p>Mahasiswa Berprestasi</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-globe"></i>
+                    <h4 id="prestasi-internasional">0</h4>
+                    <p>Prestasi Internasional</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-flag"></i>
+                    <h4 id="prestasi-nasional">0</h4>
+                    <p>Prestasi Nasional</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-upload"></i>
+                    <h3>Upload Data Prestasi</h3>
+                </div>
+                <div class="file-upload" onclick="document.getElementById('file-prestasi').click()">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Klik untuk upload file prestasi.csv</p>
+                    <input type="file" id="file-prestasi" accept=".csv" style="display: none;" onchange="loadPrestasiData(this)">
+                </div>
+                <div id="prestasi-status" class="alert alert-warning hidden">
+                    Silakan upload file prestasi.csv terlebih dahulu
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-table"></i>
+                    <h3>Preview Data Prestasi</h3>
+                </div>
+                <div id="prestasi-table-container">
+                    <p>Data akan ditampilkan setelah file diupload</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Data IPK -->
+        <div id="data-ipk" class="tab-content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h4 id="total-mahasiswa">0</h4>
+                    <p>Total Mahasiswa</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4 id="rata-rata-ipk">0.00</h4>
+                    <p>Rata-rata IPK</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h4 id="ipk-tertinggi">0.00</h4>
+                    <p>IPK Tertinggi</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h4 id="mahasiswa-lulus">0</h4>
+                    <p>Mahasiswa Lulus</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-upload"></i>
+                    <h3>Upload Data Mahasiswa</h3>
+                </div>
+                <div class="file-upload" onclick="document.getElementById('file-mahasiswa').click()">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Klik untuk upload file mahasiswa_data_20250826_152655.csv</p>
+                    <input type="file" id="file-mahasiswa" accept=".csv" style="display: none;" onchange="loadMahasiswaData(this)">
+                </div>
+                <div id="mahasiswa-status" class="alert alert-warning hidden">
+                    Silakan upload file data mahasiswa terlebih dahulu
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-table"></i>
+                    <h3>Preview Data Mahasiswa</h3>
+                </div>
+                <div id="mahasiswa-table-container">
+                    <p>Data akan ditampilkan setelah file diupload</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Data Cleaning -->
+        <div id="data-cleaning" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-broom"></i>
+                    <h3>Proses Data Cleaning</h3>
+                </div>
+                <p>Proses pembersihan data akan dilakukan untuk:</p>
+                <ul style="margin: 15px 0; padding-left: 20px;">
+                    <li>Menghapus data dengan NIM yang tidak valid</li>
+                    <li>Menghapus data duplikat</li>
+                    <li>Mengisi nilai yang hilang (missing values)</li>
+                    <li>Menormalkan format data</li>
+                    <li>Validasi konsistensi data antara prestasi dan mahasiswa</li>
+                </ul>
+                <button class="btn" onclick="startDataCleaning()">
+                    <i class="fas fa-play"></i> Mulai Proses Cleaning
+                </button>
+                <div id="cleaning-progress" class="hidden">
+                    <h4>Progress Cleaning:</h4>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill" style="width: 0%;"></div>
+                    </div>
+                    <p id="progress-text">Memulai proses...</p>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>Data Bermasalah</h3>
+                    </div>
+                    <div id="problematic-data">
+                        <p>Belum ada data yang dianalisis</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Data Bersih</h3>
+                    </div>
+                    <div id="clean-data">
+                        <p>Belum ada data yang dibersihkan</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-download"></i>
+                    <h3>Download Data Bersih</h3>
+                </div>
+                <p>Setelah proses cleaning selesai, Anda dapat mengunduh data yang telah dibersihkan:</p>
+                <button class="btn btn-success" id="download-btn" disabled onclick="downloadCleanData()">
+                    <i class="fas fa-download"></i> Download Data Bersih
+                </button>
+            </div>
+        </div>
+
+        <!-- Tab Visualisasi -->
+        <div id="visualisasi" class="tab-content">
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Distribusi Prestasi</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="prestasi-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Distribusi IPK</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="ipk-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Korelasi IPK vs Prestasi</h3>
+                </div>
+                <div class="chart-container">
+                    <canvas id="correlation-chart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Memproses data...</p>
+        </div>
+    </div>
+
+    <script>
+        let prestasiData = [];
+        let mahasiswaData = [];
+        let cleanedData = [];
+
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Remove active class from all nav tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked nav tab
+            event.target.classList.add('active');
+        }
+
+        function loadPrestasiData(input) {
+            const file = input.files[0];
+            if (!file) return;
+
+            document.getElementById('loading').style.display = 'block';
+            
+            Papa.parse(file, {
+                header: true,
+                complete: function(results) {
+                    prestasiData = results.data;
+                    displayPrestasiStats();
+                    displayPrestasiTable();
+                    document.getElementById('prestasi-status').className = 'alert alert-success';
+                    document.getElementById('prestasi-status').innerHTML = '<i class="fas fa-check"></i> Data prestasi berhasil dimuat';
+                    document.getElementById('prestasi-status').classList.remove('hidden');
+                    document.getElementById('loading').style.display = 'none';
+                    updateCharts();
+                },
+                error: function(error) {
+                    document.getElementById('prestasi-status').className = 'alert alert-danger';
+                    document.getElementById('prestasi-status').innerHTML = '<i class="fas fa-times"></i> Error loading file: ' + error.message;
+                    document.getElementById('prestasi-status').classList.remove('hidden');
+                    document.getElementById('loading').style.display = 'none';
+                }
+            });
+        }
+
+        function loadMahasiswaData(input) {
+            const file = input.files[0];
+            if (!file) return;
+
+            document.getElementById('loading').style.display = 'block';
+            
+            Papa.parse(file, {
+                header: true,
+                complete: function(results) {
+                    mahasiswaData = results.data;
+                    displayMahasiswaStats();
+                    displayMahasiswaTable();
+                    document.getElementById('mahasiswa-status').className = 'alert alert-success';
+                    document.getElementById('mahasiswa-status').innerHTML = '<i class="fas fa-check"></i> Data mahasiswa berhasil dimuat';
+                    document.getElementById('mahasiswa-status').classList.remove('hidden');
+                    document.getElementById('loading').style.display = 'none';
+                    updateCharts();
+                },
+                error: function(error) {
+                    document.getElementById('mahasiswa-status').className = 'alert alert-danger';
+                    document.getElementById('mahasiswa-status').innerHTML = '<i class="fas fa-times"></i> Error loading file: ' + error.message;
+                    document.getElementById('mahasiswa-status').classList.remove('hidden');
+                    document.getElementById('loading').style.display = 'none';
+                }
+            });
+        }
+
+        function displayPrestasiStats() {
+            const totalPrestasi = prestasiData.length;
+            const uniqueMahasiswa = [...new Set(prestasiData.map(item => item.id_mahasiswa))].length;
+            const internasional = prestasiData.filter(item => item.tingkat === 'internasional').length;
+            const nasional = prestasiData.filter(item => item.tingkat === 'nasional').length;
+
+            document.getElementById('total-prestasi').textContent = totalPrestasi;
+            document.getElementById('total-mahasiswa-prestasi').textContent = uniqueMahasiswa;
+            document.getElementById('prestasi-internasional').textContent = internasional;
+            document.getElementById('prestasi-nasional').textContent = nasional;
+        }
+
+        function displayMahasiswaStats() {
+            const totalMahasiswa = mahasiswaData.length;
+            const validMahasiswa = mahasiswaData.filter(item => item.nim && item.nim.trim() !== '');
+            
+            // Calculate average IPK from last semester
+            let totalIPK = 0;
+            let validIPKCount = 0;
+            let maxIPK = 0;
+            let lulusCount = 0;
+
+            validMahasiswa.forEach(mhs => {
+                // Find the latest IPK
+                for (let sem = 15; sem >= 1; sem--) {
+                    const ipkCol = `khs${sem}_ipk`;
+                    if (mhs[ipkCol] && !isNaN(parseFloat(mhs[ipkCol]))) {
+                        const ipk = parseFloat(mhs[ipkCol]);
+                        totalIPK += ipk;
+                        validIPKCount++;
+                        maxIPK = Math.max(maxIPK, ipk);
+                        break;
+                    }
+                }
+                
+                if (mhs.lulus === 'True') {
+                    lulusCount++;
+                }
+            });
+
+            const avgIPK = validIPKCount > 0 ? (totalIPK / validIPKCount).toFixed(2) : 0;
+
+            document.getElementById('total-mahasiswa').textContent = totalMahasiswa;
+            document.getElementById('rata-rata-ipk').textContent = avgIPK;
+            document.getElementById('ipk-tertinggi').textContent = maxIPK.toFixed(2);
+            document.getElementById('mahasiswa-lulus').textContent = lulusCount;
+        }
+
+        function displayPrestasiTable() {
+            const container = document.getElementById('prestasi-table-container');
+            const sampleData = prestasiData.slice(0, 10); // Show first 10 rows
+            
+            let html = `
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID Mahasiswa</th>
+                            <th>Jenis Prestasi</th>
+                            <th>Tingkat</th>
+                            <th>Kategori</th>
+                            <th>Tahun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            sampleData.forEach(item => {
+                html += `
+                    <tr>
+                        <td>${item.id_mahasiswa || 'N/A'}</td>
+                        <td>${item.jenis_prestasi || 'N/A'}</td>
+                        <td>${item.tingkat || 'N/A'}</td>
+                        <td>${item.kategori || 'N/A'}</td>
+                        <td>${item.tahun || 'N/A'}</td>
+                    </tr>
+                `;
+            });
+            
+            html += `
+                    </tbody>
+                </table>
+                <p style="margin-top: 10px; color: #7f8c8d;">
+                    Menampilkan 10 dari ${prestasiData.length} total data prestasi
+                </p>
+            `;
+            
+            container.innerHTML = html;
+        }
+
+        function displayMahasiswaTable() {
+            const container = document.getElementById('mahasiswa-table-container');
+            const sampleData = mahasiswaData.slice(0, 10); // Show first 10 rows
+            
+            let html = `
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>NIM</th>
+                            <th>Jenis Kelamin</th>
+                            <th>IPK Terakhir</th>
+                            <th>Status Lulus</th>
+                            <th>Total SKS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            sampleData.forEach(item => {
+                // Find latest IPK and SKS
+                let latestIPK = 'N/A';
+                let latestSKS = 'N/A';
+                
+                for (let sem = 15; sem >= 1; sem--) {
+                    const ipkCol = `khs${sem}_ipk`;
+                    const sksCol = `khs${sem}_sksTotal`;
+                    
+                    if (item[ipkCol] && !isNaN(parseFloat(item[ipkCol]))) {
+                        latestIPK = parseFloat(item[ipkCol]).toFixed(2);
+                        latestSKS = item[sksCol] || 'N/A';
+                        break;
+                    }
+                }
+                
+                html += `
+                    <tr>
+                        <td>${item.nim || 'N/A'}</td>
+                        <td>${item.jenisKelamin || 'N/A'}</td>
+                        <td>${latestIPK}</td>
+                        <td>${item.lulus === 'True' ? 'Lulus' : 'Belum Lulus'}</td>
+                        <td>${latestSKS}</td>
+                    </tr>
+                `;
+            });
+            
+            html += `
+                    </tbody>
+                </table>
+                <p style="margin-top: 10px; color: #7f8c8d;">
+                    Menampilkan 10 dari ${mahasiswaData.length} total data mahasiswa
+                </p>
+            `;
+            
+            container.innerHTML = html;
+        }
+
+        function startDataCleaning() {
+            if (prestasiData.length === 0 || mahasiswaData.length === 0) {
+                alert('Silakan upload kedua file terlebih dahulu');
+                return;
+            }
+
+            document.getElementById('cleaning-progress').classList.remove('hidden');
+            
+            let progress = 0;
+            const progressBar = document.getElementById('progress-fill');
+            const progressText = document.getElementById('progress-text');
+            
+            // Simulate cleaning process
+            const steps = [
+                'Menganalisis data prestasi...',
+                'Menganalisis data mahasiswa...',
+                'Mencari data duplikat...',
+                'Validasi NIM...',
+                'Menghapus data tidak valid...',
+                'Menggabungkan data...',
+                'Proses selesai!'
+            ];
+            
+            let currentStep = 0;
+            
+            const interval = setInterval(() => {
+                progress += 100 / steps.length;
+                progressBar.style.width = progress + '%';
+                progressText.textContent = steps[currentStep];
+                
+                if (currentStep === steps.length - 1) {
+                    clearInterval(interval);
+                    performDataCleaning();
+                    document.getElementById('download-btn').disabled = false;
+                }
+                
+                currentStep++;
+            }, 1000);
+        }
+
+        function performDataCleaning() {
+            // Create sets of valid NIMs from mahasiswa data
+            const validNIMs = new Set(
+                mahasiswaData
+                    .filter(item => item.nim && item.nim.trim() !== '')
+                    .map(item => item.nim.toString().trim())
+            );
+            
+            // Find problematic prestasi data
+            const problematicPrestasi = prestasiData.filter(item => 
+                !item.id_mahasiswa || 
+                item.id_mahasiswa.trim() === '' || 
+                !validNIMs.has(item.id_mahasiswa.toString().trim())
+            );
+            
+            // Find clean prestasi data
+            const cleanPrestasi = prestasiData.filter(item => 
+                item.id_mahasiswa && 
+                item.id_mahasiswa.trim() !== '' && 
+                validNIMs.has(item.id_mahasiswa.toString().trim())
+            );
+            
+            // Find problematic mahasiswa data
+            const problematicMahasiswa = mahasiswaData.filter(item => 
+                !item.nim || 
+                item.nim.trim() === ''
+            );
+            
+            // Display results
+            displayProblematicData(problematicPrestasi, problematicMahasiswa);
+            displayCleanData(cleanPrestasi, mahasiswaData.filter(item => item.nim && item.nim.trim() !== ''));
+            
+            // Store clean data for download
+            cleanedData = {
+                prestasi: cleanPrestasi,
+                mahasiswa: mahasiswaData.filter(item => item.nim && item.nim.trim() !== '')
+            };
+        }
+
+        function displayProblematicData(prestasi, mahasiswa) {
+            const container = document.getElementById('problematic-data');
+            
+            let html = `
+                <div class="alert alert-danger">
+                    <strong>Data Prestasi Bermasalah:</strong> ${prestasi.length} records<br>
+                    <strong>Data Mahasiswa Bermasalah:</strong> ${mahasiswa.length} records
+                </div>
+            `;
+            
+            if (prestasi.length > 0) {
+                html += `
+                    <h5>Contoh Prestasi Bermasalah:</h5>
+                    <table class="data-table" style="font-size: 0.9rem;">
+                        <thead>
+                            <tr><th>ID Mahasiswa</th><th>Masalah</th></tr>
+                        </thead>
+                        <tbody>
+                `;
+                
+                prestasi.slice(0, 5).forEach(item => {
+                    const issue = !item.id_mahasiswa ? 'ID kosong' : 'NIM tidak ditemukan';
+                    html += `<tr><td>${item.id_mahasiswa || 'NULL'}</td><td>${issue}</td></tr>`;
+                });
+                
+                html += '</tbody></table>';
+            }
+            
+            container.innerHTML = html;
+        }
+
+        function displayCleanData(prestasi, mahasiswa) {
+            const container = document.getElementById('clean-data');
+            
+            const html = `
+                <div class="alert alert-success">
+                    <strong>Data Prestasi Bersih:</strong> ${prestasi.length} records<br>
+                    <strong>Data Mahasiswa Bersih:</strong> ${mahasiswa.length} records<br>
+                    <strong>Tingkat Kebersihan:</strong> ${((prestasi.length / prestasiData.length) * 100).toFixed(1)}%
+                </div>
+                <p>Data telah dibersihkan dan siap untuk dianalisis dengan algoritma Fuzzy K-NN.</p>
+            `;
+            
+            container.innerHTML = html;
+        }
+
+        function downloadCleanData() {
+            if (cleanedData.prestasi && cleanedData.mahasiswa) {
+                // Download prestasi data
+                downloadCSV(cleanedData.prestasi, 'prestasi_clean.csv');
+                
+                // Download mahasiswa data
+                setTimeout(() => {
+                    downloadCSV(cleanedData.mahasiswa, 'mahasiswa_clean.csv');
+                }, 1000);
+                
+                alert('Data bersih sedang diunduh...');
+            }
+        }
+
+        function downloadCSV(data, filename) {
+            const csv = Papa.unparse(data);
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            
+            if (link.download !== undefined) {
+                const url = URL.createObjectURL(blob);
+                link.setAttribute('href', url);
+                link.setAttribute('download', filename);
+                link.style.visibility = 'hidden';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        }
+
+        function updateCharts() {
+            if (prestasiData.length > 0) {
+                createPrestasiChart();
+            }
+            
+            if (mahasiswaData.length > 0) {
+                createIPKChart();
+            }
+            
+            if (prestasiData.length > 0 && mahasiswaData.length > 0) {
+                createCorrelationChart();
+            }
+        }
+
+        function createPrestasiChart() {
+            const ctx = document.getElementById('prestasi-chart').getContext('2d');
+            
+            // Count prestasi by tingkat
+            const tingkatCounts = {};
+            prestasiData.forEach(item => {
+                const tingkat = item.tingkat || 'Tidak Diketahui';
+                tingkatCounts[tingkat] = (tingkatCounts[tingkat] || 0) + 1;
+            });
+            
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(tingkatCounts),
+                    datasets: [{
+                        data: Object.values(tingkatCounts),
+                        backgroundColor: [
+                            '#667eea',
+                            '#764ba2',
+                            '#f093fb',
+                            '#f5576c',
+                            '#4facfe'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+
+        function createIPKChart() {
+            const ctx = document.getElementById('ipk-chart').getContext('2d');
+            
+            // Create IPK ranges
+            const ipkRanges = {
+                '0.00-2.00': 0,
+                '2.01-2.50': 0,
+                '2.51-3.00': 0,
+                '3.01-3.50': 0,
+                '3.51-4.00': 0
+            };
+            
+            mahasiswaData.forEach(mhs => {
+                for (let sem = 15; sem >= 1; sem--) {
+                    const ipkCol = `khs${sem}_ipk`;
+                    if (mhs[ipkCol] && !isNaN(parseFloat(mhs[ipkCol]))) {
+                        const ipk = parseFloat(mhs[ipkCol]);
+                        
+                        if (ipk <= 2.00) ipkRanges['0.00-2.00']++;
+                        else if (ipk <= 2.50) ipkRanges['2.01-2.50']++;
+                        else if (ipk <= 3.00) ipkRanges['2.51-3.00']++;
+                        else if (ipk <= 3.50) ipkRanges['3.01-3.50']++;
+                        else ipkRanges['3.51-4.00']++;
+                        
+                        break;
+                    }
+                }
+            });
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(ipkRanges),
+                    datasets: [{
+                        label: 'Jumlah Mahasiswa',
+                        data: Object.values(ipkRanges),
+                        backgroundColor: 'rgba(102, 126, 234, 0.8)',
+                        borderColor: 'rgba(102, 126, 234, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function createCorrelationChart() {
+            const ctx = document.getElementById('correlation-chart').getContext('2d');
+            
+            // Create correlation data
+            const correlationData = [];
+            const mahasiswaNIMs = new Set(mahasiswaData.map(m => m.nim));
+            
+            mahasiswaData.forEach(mhs => {
+                if (!mahasiswaNIMs.has(mhs.nim)) return;
+                
+                // Get latest IPK
+                let latestIPK = null;
+                for (let sem = 15; sem >= 1; sem--) {
+                    const ipkCol = `khs${sem}_ipk`;
+                    if (mhs[ipkCol] && !isNaN(parseFloat(mhs[ipkCol]))) {
+                        latestIPK = parseFloat(mhs[ipkCol]);
+                        break;
+                    }
+                }
+                
+                if (latestIPK) {
+                    // Count prestasi for this student
+                    const prestasiCount = prestasiData.filter(p => 
+                        p.id_mahasiswa === mhs.nim
+                    ).length;
+                    
+                    correlationData.push({
+                        x: latestIPK,
+                        y: prestasiCount
+                    });
+                }
+            });
+            
+            new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'IPK vs Jumlah Prestasi',
+                        data: correlationData,
+                        backgroundColor: 'rgba(102, 126, 234, 0.6)',
+                        borderColor: 'rgba(102, 126, 234, 1)',
+                        pointRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'IPK'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Jumlah Prestasi'
+                            },
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        // Initialize default hidden elements
+        document.getElementById('prestasi-status').classList.remove('hidden');
+        document.getElementById('mahasiswa-status').classList.remove('hidden');
+    </script>
+</body>
+</html>
