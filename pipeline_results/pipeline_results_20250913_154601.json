@@ -1,0 +1,64 @@
+{
+  "run_id": "20250913_154601",
+  "start_time": "2025-09-13 15:46:01.901207",
+  "config": {
+    "project_name": "Student_Achievement_Classification",
+    "version": "1.0.0",
+    "random_state": 42,
+    "raw_data_path": "demo_mahasiswa.csv",
+    "output_directory": "pipeline_results",
+    "test_size": 0.2,
+    "cv_folds": 5
+  },
+  "stages_completed": [
+    "data_loading",
+    "data_processing",
+    "feature_engineering",
+    "model_training",
+    "model_evaluation",
+    "output_generation",
+    "thesis_package"
+  ],
+  "errors": [],
+  "end_time": "2025-09-13 15:46:09.908606",
+  "execution_time": "0:00:08",
+  "data_summary": {
+    "total_records": 50,
+    "total_features": 103,
+    "numeric_features": 83,
+    "categorical_features": 19,
+    "missing_values": 0,
+    "class_distribution": {
+      "1": 33,
+      "0": 17
+    }
+  },
+  "model_results": {
+    "Random_Forest": {
+      "accuracy": 0.8,
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1_score": 0.8571428571428571
+    },
+    "KNN": {
+      "accuracy": 0.7,
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1_score": 0.8
+    },
+    "Enhanced_Fuzzy_KNN": {
+      "accuracy": 0.7,
+      "precision": 0.7,
+      "recall": 1.0,
+      "f1_score": 0.8235294117647058
+    }
+  },
+  "output_paths": {
+    "clean_dataset": "pipeline_results\\clean_dataset_20250913_154601.csv",
+    "model_performance": "pipeline_results\\model_performance_20250913_154601.csv",
+    "performance_visualization": "pipeline_results\\performance_comparison_20250913_154601.png",
+    "pipeline_report": "pipeline_results\\pipeline_report_20250913_154601.md"
+  },
+  "thesis_package_path": "pipeline_results\\thesis_package",
+  "status": "completed"
+}

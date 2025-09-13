@@ -1,0 +1,90 @@
+2025-09-13 15:19:40,253 - EvaluationFramework - INFO - Starting comprehensive evaluation...
+2025-09-13 15:19:40,258 - EvaluationFramework - INFO - Loading evaluation data from: integrated_data/integrated_enhanced_dataset_20250913_150718.csv
+2025-09-13 15:19:40,314 - EvaluationFramework - INFO - Loaded 112 students with 50 features
+2025-09-13 15:19:40,326 - EvaluationFramework - INFO - Prepared 6 models for evaluation
+2025-09-13 15:19:40,335 - EvaluationFramework - INFO - Running technical performance evaluation...
+2025-09-13 15:19:40,336 - EvaluationFramework - INFO - Starting technical performance evaluation...
+2025-09-13 15:19:40,342 - EvaluationFramework - INFO - Evaluating Random_Forest...
+2025-09-13 15:19:40,978 - EvaluationFramework - INFO - Evaluating Standard_KNN...
+2025-09-13 15:19:41,366 - EvaluationFramework - INFO - Evaluating Naive_Bayes...
+2025-09-13 15:19:41,444 - EvaluationFramework - INFO - Evaluating SVM_RBF...
+2025-09-13 15:19:41,548 - EvaluationFramework - INFO - Evaluating Enhanced_Fuzzy_KNN...
+2025-09-13 15:19:41,548 - EnhancedFuzzyKNN - INFO - Fitting Enhanced Fuzzy K-NN classifier...
+2025-09-13 15:19:41,555 - EnhancedFuzzyKNN - INFO - Determined optimal K: 9 (dataset size: 89, classes: 2)
+2025-09-13 15:19:41,559 - EnhancedFuzzyKNN - INFO - Determined adaptive m: 2.99 (features: 46, variance: 0.9783)
+2025-09-13 15:19:41,560 - EnhancedFuzzyKNN - INFO - Model fitted with K=9, m=2.99
+2025-09-13 15:19:41,828 - EnhancedFuzzyKNN - INFO - Fitting Enhanced Fuzzy K-NN classifier...
+2025-09-13 15:19:41,830 - EnhancedFuzzyKNN - INFO - Determined adaptive m: 2.99 (features: 46, variance: 0.9783)
+2025-09-13 15:19:41,830 - EnhancedFuzzyKNN - INFO - Model fitted with K=9, m=2.99
+2025-09-13 15:19:42,021 - EnhancedFuzzyKNN - INFO - Fitting Enhanced Fuzzy K-NN classifier...
+2025-09-13 15:19:42,023 - EnhancedFuzzyKNN - INFO - Determined adaptive m: 2.99 (features: 46, variance: 0.9783)
+2025-09-13 15:19:42,023 - EnhancedFuzzyKNN - INFO - Model fitted with K=9, m=2.99
+2025-09-13 15:19:42,240 - EnhancedFuzzyKNN - INFO - Fitting Enhanced Fuzzy K-NN classifier...
+2025-09-13 15:19:42,242 - EnhancedFuzzyKNN - INFO - Determined adaptive m: 2.99 (features: 46, variance: 0.9783)
+2025-09-13 15:19:42,245 - EnhancedFuzzyKNN - INFO - Model fitted with K=9, m=2.99
+2025-09-13 15:19:42,506 - EvaluationFramework - INFO - Evaluating Ensemble...
+2025-09-13 15:19:42,818 - EvaluationFramework - WARNING - CV fold failed: VotingClassifier.__init__() got an unexpected keyword argument 'rf'
+2025-09-13 15:19:42,818 - EvaluationFramework - WARNING - CV fold failed: VotingClassifier.__init__() got an unexpected keyword argument 'rf'
+2025-09-13 15:19:42,823 - EvaluationFramework - WARNING - CV fold failed: VotingClassifier.__init__() got an unexpected keyword argument 'rf'
+2025-09-13 15:19:42,826 - EvaluationFramework - INFO - Technical performance evaluation completed
+2025-09-13 15:19:42,828 - EvaluationFramework - INFO - Running fairness analysis...
+2025-09-13 15:19:42,830 - EvaluationFramework - INFO - Starting fairness analysis...
+2025-09-13 15:19:42,831 - EvaluationFramework - INFO - Analyzing fairness for Random_Forest across gender
+2025-09-13 15:19:42,840 - EvaluationFramework - INFO - Analyzing fairness for Random_Forest across program
+2025-09-13 15:19:42,863 - EvaluationFramework - INFO - Analyzing fairness for Random_Forest across cohort
+2025-09-13 15:19:42,868 - EvaluationFramework - INFO - Analyzing fairness for Standard_KNN across gender
+2025-09-13 15:19:42,873 - EvaluationFramework - INFO - Analyzing fairness for Standard_KNN across program
+2025-09-13 15:19:42,894 - EvaluationFramework - INFO - Analyzing fairness for Standard_KNN across cohort
+2025-09-13 15:19:42,900 - EvaluationFramework - INFO - Analyzing fairness for Naive_Bayes across gender
+2025-09-13 15:19:42,902 - EvaluationFramework - INFO - Analyzing fairness for Naive_Bayes across program
+2025-09-13 15:19:42,921 - EvaluationFramework - INFO - Analyzing fairness for Naive_Bayes across cohort
+2025-09-13 15:19:42,924 - EvaluationFramework - INFO - Analyzing fairness for SVM_RBF across gender
+2025-09-13 15:19:42,928 - EvaluationFramework - INFO - Analyzing fairness for SVM_RBF across program
+2025-09-13 15:19:42,948 - EvaluationFramework - INFO - Analyzing fairness for SVM_RBF across cohort
+2025-09-13 15:19:42,953 - EvaluationFramework - INFO - Analyzing fairness for Enhanced_Fuzzy_KNN across gender
+2025-09-13 15:19:42,957 - EvaluationFramework - INFO - Analyzing fairness for Enhanced_Fuzzy_KNN across program
+2025-09-13 15:19:42,976 - EvaluationFramework - INFO - Analyzing fairness for Enhanced_Fuzzy_KNN across cohort
+2025-09-13 15:19:42,979 - EvaluationFramework - INFO - Analyzing fairness for Ensemble across gender
+2025-09-13 15:19:42,983 - EvaluationFramework - INFO - Analyzing fairness for Ensemble across program
+2025-09-13 15:19:42,997 - EvaluationFramework - INFO - Analyzing fairness for Ensemble across cohort
+2025-09-13 15:19:42,999 - EvaluationFramework - INFO - Fairness analysis completed
+2025-09-13 15:19:43,003 - EvaluationFramework - INFO - Running temporal validation...
+2025-09-13 15:19:43,004 - EvaluationFramework - INFO - Starting temporal validation...
+2025-09-13 15:19:43,254 - EnhancedFuzzyKNN - INFO - Fitting Enhanced Fuzzy K-NN classifier...
+2025-09-13 15:19:43,255 - EnhancedFuzzyKNN - INFO - Determined adaptive m: 2.99 (features: 46, variance: 0.9783)
+2025-09-13 15:19:43,256 - EnhancedFuzzyKNN - INFO - Model fitted with K=9, m=2.99
+2025-09-13 15:19:43,660 - EvaluationFramework - INFO - Temporal validation completed
+2025-09-13 15:19:43,660 - EvaluationFramework - INFO - Running ablation study...
+2025-09-13 15:19:43,661 - EvaluationFramework - INFO - Starting ablation study...
+2025-09-13 15:19:45,212 - EvaluationFramework - INFO - Ablation study completed
+2025-09-13 15:19:45,212 - EvaluationFramework - INFO - Running cost-benefit analysis...
+2025-09-13 15:19:45,213 - EvaluationFramework - INFO - Starting cost-benefit analysis...
+2025-09-13 15:19:45,213 - EvaluationFramework - INFO - Cost-benefit analysis completed
+2025-09-13 15:19:45,214 - EvaluationFramework - INFO - Generating visualizations...
+2025-09-13 15:19:45,214 - EvaluationFramework - INFO - Generating visualizations...
+2025-09-13 15:19:45,747 - root - ERROR - Evaluation failed: 'yerr' (shape: (6, 2)) must be a scalar or a 1D or (2, n) array-like whose shape matches 'y' (shape: (6,))
+Traceback (most recent call last):
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\evaluation_framework.py", line 1323, in main
+    results = framework.run_comprehensive_evaluation(data_path, enhanced_fuzzy_knn)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\evaluation_framework.py", line 1252, in run_comprehensive_evaluation
+    visualization_paths = self.generate_visualizations(results, df)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\evaluation_framework.py", line 716, in generate_visualizations
+    perf_path = self._create_performance_comparison_plot(results)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\evaluation_framework.py", line 782, in _create_performance_comparison_plot
+    bars = ax.bar(positions, data[metric], width,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\matplotlib\__init__.py", line 1486, in inner
+    return func(
+           ^^^^^
+  File "C:\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 2613, in bar
+    errorbar = self.errorbar(ex, ey, yerr=yerr, xerr=xerr, fmt='none',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\matplotlib\__init__.py", line 1486, in inner
+    return func(
+           ^^^^^
+  File "C:\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 3731, in errorbar
+    raise ValueError(
+ValueError: 'yerr' (shape: (6, 2)) must be a scalar or a 1D or (2, n) array-like whose shape matches 'y' (shape: (6,))

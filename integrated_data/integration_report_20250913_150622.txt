@@ -1,0 +1,38 @@
+🔗 ORGANIZATIONAL DATA INTEGRATION REPORT
+==================================================
+
+📊 DATASET OVERVIEW:
+--------------------
+• Total Students: 112
+• Total Features: 50
+• Students with Organizational Involvement: 0
+
+🏛️ ORGANIZATIONAL FEATURES SUMMARY:
+-----------------------------------
+• Average Organizations per Student: 0.00
+• Students with Leadership Roles: 0
+• Average Organization Type Diversity: 0.00
+• Mean Organizational Score: 0.000
+
+📈 UPDATED CLASSIFICATION RESULTS:
+-----------------------------------
+• Proficient: 58 students (51.8%)
+• Developing: 54 students (48.2%)
+
+🎯 MULTI-CRITERIA ANALYSIS:
+------------------------------
+• Academic Excellence: 105 students (93.8%)
+• Achievement Portfolio: 63 students (56.2%)
+• Leadership Experience: 0 students (0.0%)
+
+🏆 FINAL CLASSIFICATION:
+-------------------------
+• Berprestasi Students: 58/112 (51.8%)
+• Average Composite Score: 0.418
+
+✅ INTEGRATION QUALITY INDICATORS:
+-----------------------------------
+• No Missing Values: True
+• Balanced Classification: False
+• Comprehensive Features: True
+• Realistic Organizational Involvement: False

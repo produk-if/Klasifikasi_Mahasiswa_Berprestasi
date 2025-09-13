@@ -1,86 +1,101 @@
 id,judul,tingkat,kategori,tanggal,id_mahasiswa,dibuat_pada,jenis_prestasi,institusi_tim,nama_tim,tahun
-f4cd589c-9aaa-4a07-916b-cd3c55291a78,Kompetisi Aplikasi Mobile,internasional,akademik,4/16/2022 00:00:00,105311105520,27/08/2025 13:57:51.412,tim,Tim 6,Team_548,2023
-0e8ee66f-54aa-4067-936b-85df2b6b16c9,Olimpiade Informatika,internasional,akademik,7/4/2022 00:00:00,105311105520,27/08/2025 13:57:51.412,individu,Tim 1,Team_866,2020
-27ba5fda-1528-42ba-b6a7-a4ca04ceb4b1,Lomba Poster,regional,akademik,3/13/2024 00:00:00,105611121619,27/08/2025 13:57:51.412,individu,Tim 3,Team_338,2024
-e353e102-46b4-422f-8d1e-98b150e2642b,Lomba Esai,lokal,akademik,12/7/2021 00:00:00,105611121619,27/08/2025 13:57:51.412,tim,Tim 9,Team_834,2021
-942e8936-e1c6-4fe0-85c6-632ce34765c1,Festival Film Pendek,nasional,akademik,7/23/2020 00:00:00,105611121619,27/08/2025 13:57:51.412,individu,Tim 9,Team_834,2021
-6aed0ae3-5303-4caf-ba77-554b99c66862,Lomba Poster,nasional,non_akademik,9/18/2021 00:00:00,105611121619,27/08/2025 13:57:51.412,tim,Tim 5,Team_932,2023
-7a75d2f1-db24-41c6-9a35-45d584f85399,Turnamen E-Sports,nasional,non_akademik,7/8/2024 00:00:00,105731122419,27/08/2025 13:57:51.412,individu,Tim 3,Team_474,2021
-92759c04-4200-4359-98a3-2d85b8a4bfdd,Kompetisi Robotika,regional,non_akademik,10/23/2024 00:00:00,105731111719,27/08/2025 13:57:51.412,tim,Tim 8,Team_128,2021
-9505707d-3d62-4c82-bc61-9b27500e46f7,Kompetisi Business Plan,nasional,non_akademik,8/4/2023 00:00:00,105731111719,27/08/2025 13:57:51.412,individu,Tim 9,Team_954,2021
-e3dcd8ea-82e0-4e11-89d3-2fb433de8738,Kompetisi Programming,internasional,akademik,1/10/2022 00:00:00,105731111719,27/08/2025 13:57:51.412,individu,Tim 5,Team_489,2023
-29f46c09-dad2-43ac-8a54-139f9b6a1536,Kompetisi Robotika,lokal,non_akademik,1/18/2023 00:00:00,105731111719,27/08/2025 13:57:51.412,tim,Tim 8,Team_489,2021
-90b6574e-593e-4888-a8a8-5593ddf9bc2d,Lomba Video Kreatif,lokal,non_akademik,4/27/2024 00:00:00,105401130019,27/08/2025 13:57:51.412,individu,Tim 10,Team_968,2020
-533c6550-117f-4963-bab0-4cd941864d8c,Lomba Poster,regional,akademik,6/24/2020 00:00:00,105811106917,27/08/2025 13:57:51.412,individu,Tim 5,Team_350,2023
-b4be19d0-cbf6-4f0e-8f04-04b7bf2ad154,Lomba Fotografi,lokal,non_akademik,12/5/2020 00:00:00,105811106917,27/08/2025 13:57:51.412,tim,Tim 3,Team_816,2023
-9a892eb4-6171-4cb9-9db0-f073069021ce,Kompetisi Robotika,nasional,akademik,10/24/2024 00:00:00,105741102820,27/08/2025 13:57:51.412,tim,Tim 1,Team_136,2022
-d8afd857-5780-4782-ab1c-f96eb2373703,Lomba Video Kreatif,internasional,non_akademik,10/6/2021 00:00:00,105741102820,27/08/2025 13:57:51.412,tim,Tim 9,Team_362,2023
-88d311f0-6780-4cb2-aa89-c3f33e2285ce,Lomba Video Kreatif,regional,akademik,8/1/2021 00:00:00,105741102820,27/08/2025 13:57:51.412,individu,Tim 4,Team_902,2024
-527d1390-a9ef-48d2-bcc4-2dbfbb405a33,Kompetisi Matematika,nasional,non_akademik,6/24/2024 00:00:00,105191115719,27/08/2025 13:57:51.412,individu,Tim 8,Team_931,2022
-21f45fef-b8e4-4fd7-8624-7c4ec7e7aeee,Kompetisi Matematika,nasional,non_akademik,4/18/2020 00:00:00,105191115719,27/08/2025 13:57:51.412,tim,Tim 4,Team_743,2022
-2a45bf60-ab52-4604-a087-0879881bb96a,Lomba Poster,regional,non_akademik,6/27/2024 00:00:00,105191115719,27/08/2025 13:57:51.412,tim,Tim 6,Team_772,2023
-6ef68d25-8318-44ac-8652-e8d24c154f2b,Hackathon,lokal,non_akademik,11/4/2020 00:00:00,105191115719,27/08/2025 13:57:51.412,tim,Tim 3,Team_394,2022
-f627f533-1375-489a-a64b-2a51d0f386fc,Lomba Karya Tulis Ilmiah,nasional,non_akademik,1/9/2020 00:00:00,105191115719,27/08/2025 13:57:51.412,tim,Tim 10,Team_371,2024
-91ad2914-e992-4daa-84dc-cf29379e7196,Lomba Karya Tulis Ilmiah,lokal,non_akademik,3/16/2020 00:00:00,105361100219,27/08/2025 13:57:51.412,individu,Tim 4,Team_112,2020
-461ee37c-cfed-4b32-a3b1-c9aece280c93,Kompetisi Robotika,nasional,akademik,6/7/2022 00:00:00,105361100219,27/08/2025 13:57:51.412,individu,Tim 8,Team_713,2020
-17415692-c4ff-48fa-a299-ca9d2b596948,Lomba Debat,internasional,akademik,10/8/2024 00:00:00,105361100219,27/08/2025 13:57:51.412,tim,Tim 7,Team_212,2020
-f7d0177a-006a-48c9-8888-aabdb6c4627c,Kompetisi Aplikasi Mobile,internasional,non_akademik,10/12/2020 00:00:00,105391100920,27/08/2025 13:57:51.412,individu,Tim 5,Team_873,2021
-4b672d41-f853-40ca-8f0a-a7c59f73e714,Lomba Poster,lokal,akademik,6/22/2022 00:00:00,105391100920,27/08/2025 13:57:51.412,individu,Tim 8,Team_367,2023
-870b6a6b-3aac-491d-902a-37b254a39e9a,Festival Film Pendek,nasional,akademik,4/3/2023 00:00:00,105391100920,27/08/2025 13:57:51.412,tim,Tim 5,Team_261,2022
-2c1a141a-c7ee-4e89-968e-f3d382e69959,Hackathon,lokal,non_akademik,9/16/2022 00:00:00,105391100920,27/08/2025 13:57:51.412,tim,Tim 10,Team_920,2021
-7dc8f55d-5a6e-4d7f-b98c-c4913eb752cc,Lomba Debat,regional,non_akademik,5/16/2020 00:00:00,105391100920,27/08/2025 13:57:51.412,individu,Tim 5,Team_883,2024
-1bc26079-22ba-4a8b-92ba-14cb3ca78451,Lomba Esai,internasional,akademik,9/12/2023 00:00:00,105191101420,27/08/2025 13:57:51.412,tim,Tim 10,Team_742,2023
-176f3994-cad4-4581-b1e9-386623552bd3,Olimpiade Informatika,internasional,akademik,4/15/2023 00:00:00,105191101420,27/08/2025 13:57:51.412,individu,Tim 3,Team_547,2023
-fc71da19-7155-4b54-9ffa-ea129c07176e,Olimpiade Informatika,regional,non_akademik,8/10/2022 00:00:00,105951102920,27/08/2025 13:57:51.412,individu,Tim 10,Team_390,2020
-0cbdeaca-cd15-4eb4-9a01-e844e8c71ffb,Kompetisi Aplikasi Mobile,internasional,non_akademik,1/12/2023 00:00:00,105951102920,27/08/2025 13:57:51.412,tim,Tim 10,Team_523,2023
-0c9a44e6-7932-4781-9801-407810886fbb,Lomba Desain Grafis,lokal,non_akademik,4/2/2021 00:00:00,105951102920,27/08/2025 13:57:51.412,individu,Tim 4,Team_408,2020
-68064cc0-fb52-4deb-ac8e-a3885579c88a,Lomba Inovasi,regional,akademik,12/23/2024 00:00:00,105421100320,27/08/2025 13:57:51.413,tim,Tim 5,Team_628,2023
-42b7526a-0a9f-4324-a082-bbe719006374,Lomba Fotografi,internasional,non_akademik,5/1/2024 00:00:00,105421100320,27/08/2025 13:57:51.413,tim,Tim 5,Team_549,2023
-158587f6-38d9-46fa-b65d-4107f10f1461,Hackathon,regional,akademik,2/24/2024 00:00:00,105421100320,27/08/2025 13:57:51.413,tim,Tim 7,Team_405,2021
-99abbfa9-5a35-4ed6-96f2-986e8b6bb076,Festival Film Pendek,internasional,akademik,7/26/2022 00:00:00,105421100320,27/08/2025 13:57:51.413,tim,Tim 2,Team_536,2023
-e881494f-53a4-44e0-b3a3-66a71f214957,Lomba Debat,lokal,non_akademik,10/12/2022 00:00:00,105311101620,27/08/2025 13:57:51.413,individu,Tim 2,Team_309,2024
-fdfed09f-4c3c-4e9d-ac04-f4d932a55a04,Lomba Inovasi,lokal,akademik,2/28/2020 00:00:00,105131100519,27/08/2025 13:57:51.413,tim,Tim 1,Team_931,2024
-a6548bc3-e7bd-4fc3-8d9b-ccdfc1e49a74,Lomba Esai,nasional,akademik,7/23/2024 00:00:00,105131100519,27/08/2025 13:57:51.413,individu,Tim 8,Team_372,2024
-3406b9b5-cdad-44d7-9e4e-da7ad5ac1b43,Lomba Desain Grafis,lokal,akademik,10/6/2022 00:00:00,105721144418,27/08/2025 13:57:51.413,individu,Tim 2,Team_285,2021
-52f7449f-e38b-49cb-bc39-7bfb614ca283,Hackathon,lokal,akademik,7/9/2023 00:00:00,105721144418,27/08/2025 13:57:51.413,tim,Tim 5,Team_172,2024
-20c292cf-f6dc-431b-9002-5d84ec56061e,Lomba Debat,lokal,non_akademik,8/17/2023 00:00:00,105721144418,27/08/2025 13:57:51.413,tim,Tim 7,Team_977,2022
-2a0fd352-ab6f-45db-892f-79b3955a3756,Festival Film Pendek,regional,non_akademik,5/21/2024 00:00:00,105721144418,27/08/2025 13:57:51.413,individu,Tim 3,Team_411,2023
-ff7f4be7-2e59-410e-84c0-72509a8a78cf,Lomba Esai,internasional,akademik,12/6/2022 00:00:00,105721128920,27/08/2025 13:57:51.413,tim,Tim 6,Team_637,2021
-c3f5aa4d-c801-4e17-8791-9156178fc597,Festival Film Pendek,nasional,non_akademik,12/26/2021 00:00:00,105721128920,27/08/2025 13:57:51.413,tim,Tim 3,Team_409,2023
-5a6bf639-2efc-4b26-9232-4710314c42cf,Lomba Video Kreatif,nasional,non_akademik,9/14/2020 00:00:00,105721128920,27/08/2025 13:57:51.413,tim,Tim 5,Team_115,2022
-80e7b844-d6ba-4c7b-a69e-ce60b481c0f9,Lomba Desain Grafis,regional,non_akademik,1/8/2022 00:00:00,105721128920,27/08/2025 13:57:51.413,individu,Tim 8,Team_363,2023
-ebfc52b5-30af-4049-bc45-4124a1a3cf7c,Festival Film Pendek,nasional,akademik,7/19/2023 00:00:00,105331100420,27/08/2025 13:57:51.413,individu,Tim 7,Team_881,2021
-317a9799-da2a-4768-9c45-0e0f29336cdc,Festival Film Pendek,lokal,akademik,4/7/2021 00:00:00,105331100420,27/08/2025 13:57:51.413,individu,Tim 3,Team_477,2021
-c74b5304-a9df-42a5-8eea-7e3aaadad405,Lomba Debat,lokal,non_akademik,5/1/2021 00:00:00,105331100420,27/08/2025 13:57:51.413,individu,Tim 8,Team_705,2022
-9e61330e-8797-416c-9131-fbec2375afb7,Lomba Desain Grafis,lokal,non_akademik,1/11/2024 00:00:00,105331100420,27/08/2025 13:57:51.413,tim,Tim 1,Team_851,2021
-9c7804ed-bb69-41e3-bc7a-829a3c5d5dcf,Kompetisi Programming,nasional,non_akademik,4/27/2020 00:00:00,105391101920,27/08/2025 13:57:51.413,individu,Tim 4,Team_302,2020
-42d2b411-94d9-4395-a06e-cc6df34c103e,Lomba Debat,internasional,non_akademik,11/11/2024 00:00:00,105391101920,27/08/2025 13:57:51.413,tim,Tim 2,Team_653,2024
-dda9b982-eb5c-4ad1-a758-10caa6493fb7,Olimpiade Informatika,lokal,non_akademik,7/15/2020 00:00:00,105731124818,27/08/2025 13:57:51.413,tim,Tim 10,Team_569,2021
-a34d066c-1d07-4882-9c60-b69dd662c817,Lomba Inovasi,regional,non_akademik,10/12/2021 00:00:00,105261111622,27/08/2025 13:57:51.413,tim,Tim 6,Team_471,2022
-ac2972f4-0142-4a66-bf81-491f28cc0f08,Hackathon,internasional,non_akademik,1/2/2021 00:00:00,105261111622,27/08/2025 13:57:51.413,tim,Tim 7,Team_589,2023
-fc580832-94bf-4850-96dd-d53688efc9ff,Kompetisi Programming,regional,non_akademik,3/17/2021 00:00:00,105721124321,27/08/2025 13:57:51.413,tim,Tim 9,Team_739,2020
-7757cea5-93ed-44da-bdcb-db34491d6f4b,Lomba Poster,regional,non_akademik,3/11/2020 00:00:00,105721124321,27/08/2025 13:57:51.413,individu,Tim 6,Team_926,2021
-4df3c6b4-1f0b-48a9-861f-0569c2f76f0f,Kompetisi Business Plan,nasional,akademik,3/28/2024 00:00:00,105381100120,27/08/2025 13:57:51.413,tim,Tim 3,Team_438,2023
-4e053249-3a7f-4c16-8574-ebbc43da3429,Kompetisi Business Plan,nasional,non_akademik,1/28/2020 00:00:00,105381100120,27/08/2025 13:57:51.413,individu,Tim 2,Team_775,2022
-73699aeb-5ec6-4e86-9967-fbf77e9fe8f7,Festival Film Pendek,nasional,non_akademik,12/7/2022 00:00:00,105381100120,27/08/2025 13:57:51.413,tim,Tim 8,Team_182,2021
-2ecd2170-be1b-4068-a878-5db1f45fdadc,Festival Film Pendek,lokal,akademik,9/11/2024 00:00:00,105381100120,27/08/2025 13:57:51.413,individu,Tim 3,Team_285,2024
-c1498556-e29e-4cc1-97a8-b5655eb957b0,Kompetisi Business Plan,lokal,akademik,4/2/2021 00:00:00,105381100120,27/08/2025 13:57:51.413,individu,Tim 2,Team_785,2022
-9ca6cca3-e529-4de2-9372-ccf651cbab1b,Lomba Karya Tulis Ilmiah,nasional,akademik,6/13/2021 00:00:00,105611105520,27/08/2025 13:57:51.413,tim,Tim 8,Team_138,2021
-e247ebd8-9914-4602-befd-bf25bff15cd8,Lomba Debat,regional,non_akademik,9/19/2022 00:00:00,105611105520,27/08/2025 13:57:51.413,tim,Tim 9,Team_858,2023
-18bce7b9-b6ed-46ba-9f89-50931bc864a7,Lomba Desain Grafis,regional,non_akademik,7/3/2022 00:00:00,105611105520,27/08/2025 13:57:51.413,tim,Tim 10,Team_737,2020
-c5a74e35-0fcf-4170-8f65-f353b9181b4a,Lomba Fotografi,lokal,akademik,1/7/2024 00:00:00,105611105520,27/08/2025 13:57:51.413,tim,Tim 3,Team_280,2023
-4dd1cb90-b171-4c10-b0f9-a5043df484a0,Turnamen E-Sports,internasional,non_akademik,11/16/2023 00:00:00,105811116917,27/08/2025 13:57:51.413,individu,Tim 10,Team_180,2023
-d2d5abc6-9d0d-4f33-8e93-350206232bd4,Lomba Debat,regional,akademik,12/1/2021 00:00:00,105811116917,27/08/2025 13:57:51.413,tim,Tim 3,Team_396,2024
-274d9e03-31b0-43b8-8fb9-3db9ef304800,Lomba Debat,regional,non_akademik,9/6/2023 00:00:00,105391102020,27/08/2025 13:57:51.413,individu,Tim 7,Team_852,2020
-2b2ebab7-4bcf-48f4-a55c-6b9c5522615f,Turnamen E-Sports,lokal,akademik,6/22/2022 00:00:00,105391102020,27/08/2025 13:57:51.413,tim,Tim 6,Team_703,2024
-7fbeb5bd-42a7-4aa7-bf54-748f0ddb44a4,Olimpiade Sains,lokal,akademik,10/23/2024 00:00:00,105351102818,27/08/2025 13:57:51.413,individu,Tim 5,Team_366,2023
-348882bb-d722-410f-a7f6-131b31471bbf,Lomba Fotografi,nasional,akademik,7/7/2020 00:00:00,105351102818,27/08/2025 13:57:51.413,individu,Tim 5,Team_208,2023
-e82ee20b-16ae-4ac8-bb65-cb5f20f33c9c,Festival Film Pendek,regional,akademik,3/25/2021 00:00:00,105351102818,27/08/2025 13:57:51.413,individu,Tim 1,Team_820,2021
-a0899bcf-7fdd-4e8f-b7ac-845be70f7000,Lomba Fotografi,internasional,akademik,2/4/2022 00:00:00,105351102818,27/08/2025 13:57:51.413,individu,Tim 7,Team_644,2022
-ef3647b7-b0c7-45d3-b1fd-71dff440aabf,Lomba Esai,nasional,akademik,5/24/2024 00:00:00,105961106721,27/08/2025 13:57:51.413,individu,Tim 2,Team_644,2024
-daa92f5b-3896-4494-b911-7c1fc92ba5f3,Kompetisi Matematika,regional,akademik,3/15/2024 00:00:00,105961106721,27/08/2025 13:57:51.413,tim,Tim 8,Team_545,2020
-c1c8e3a0-7989-47d9-9159-658eefb58934,Olimpiade Sains,internasional,non_akademik,2/17/2021 00:00:00,105851101121,27/08/2025 13:57:51.413,individu,Tim 5,Team_342,2021
-d467615c-b39a-4e9f-9326-353e9201b0c1,Hackathon,regional,non_akademik,11/9/2023 00:00:00,105851101121,27/08/2025 13:57:51.413,tim,Tim 7,Team_341,2022
-9a727814-6192-444a-98ac-747889c7a6bf,Kompetisi Matematika,nasional,akademik,11/11/2020 00:00:00,105851101121,27/08/2025 13:57:51.413,tim,Tim 10,Team_689,2021
-aee2d776-1837-4a29-bad2-b2cb19689365,Olimpiade Sains,lokal,non_akademik,11/10/2024 00:00:00,105851101121,27/08/2025 13:57:51.413,individu,Tim 9,Team_643,2023
-35106582-3737-4725-a2e0-dc98c277afa5,Olimpiade Sains,internasional,akademik,6/25/2023 00:00:00,105721102119,27/08/2025 13:57:51.413,tim,Tim 3,Team_492,2022
+4fe8dec0-962a-4097-a0b4-4ff550109ff0,Lomba Esai,nasional,non_akademik,12/12/2022 00:00:00,105731124818,13/09/2025 14:27:13.013,tim,Tim 7,Team_278,2024
+a2528321-d72f-4fdb-ab0a-b0a239800c2d,Lomba Esai,lokal,non_akademik,3/1/2020 00:00:00,105731124818,13/09/2025 14:27:13.013,tim,Tim 8,Team_868,2021
+ee07e44d-3969-4333-a544-39e1ff12d44f,Lomba Debat,regional,akademik,3/4/2022 00:00:00,105731124818,13/09/2025 14:27:13.013,tim,Tim 8,Team_366,2022
+b4061f14-e62f-4881-ac0f-3d5e8f759d33,Lomba Video Kreatif,regional,akademik,12/10/2021 00:00:00,105731124818,13/09/2025 14:27:13.013,individu,Tim 4,Team_495,2021
+48c522cf-32b7-49df-9b02-4f4ca437adc5,Lomba Video Kreatif,lokal,non_akademik,7/5/2023 00:00:00,105731122419,13/09/2025 14:27:13.013,tim,Tim 5,Team_479,2020
+511bab4c-4a90-4998-a8e0-acbe2b9b19f1,Kompetisi Robotika,nasional,akademik,6/18/2024 00:00:00,105731122419,13/09/2025 14:27:13.013,tim,Tim 6,Team_798,2024
+e0f8913a-0c7f-40ad-90c2-12fd1a6b7832,Olimpiade Sains,regional,akademik,1/24/2020 00:00:00,105731122419,13/09/2025 14:27:13.013,individu,Tim 9,Team_334,2020
+dc08b02f-7c97-4890-a3e4-4a31fd1583d5,Lomba Esai,internasional,akademik,10/17/2024 00:00:00,105951102020,13/09/2025 14:27:13.013,individu,Tim 2,Team_679,2024
+1d81c182-eff1-409f-9164-5bb2c51d6c79,Lomba Fotografi,regional,non_akademik,10/18/2021 00:00:00,105951102020,13/09/2025 14:27:13.013,tim,Tim 4,Team_466,2022
+f6ea05b9-26ab-4e37-834e-4bdc3f2d6a88,Kompetisi Business Plan,nasional,non_akademik,3/9/2021 00:00:00,105951102020,13/09/2025 14:27:13.013,individu,Tim 3,Team_590,2024
+74a46bc6-ebd3-448e-b02c-9906ca2c4324,Kompetisi Aplikasi Mobile,internasional,akademik,6/25/2024 00:00:00,105951102020,13/09/2025 14:27:13.013,tim,Tim 5,Team_491,2023
+29a3408a-2aed-4b38-bb4a-d28493a19555,Lomba Video Kreatif,lokal,akademik,1/3/2020 00:00:00,105951102020,13/09/2025 14:27:13.013,tim,Tim 7,Team_669,2020
+dd28e4d2-2ea9-41d9-bae6-c3fc8beef082,Lomba Esai,lokal,non_akademik,4/4/2022 00:00:00,105721121819,13/09/2025 14:27:13.013,tim,Tim 8,Team_408,2023
+3b7e3179-e962-43c5-bef9-0fb620588948,Lomba Video Kreatif,internasional,akademik,12/10/2021 00:00:00,105721121819,13/09/2025 14:27:13.013,individu,Tim 6,Team_864,2023
+0c531e26-4079-4ce3-a249-20f5a256df7d,Turnamen E-Sports,nasional,non_akademik,4/10/2020 00:00:00,105851101121,13/09/2025 14:27:13.013,individu,Tim 4,Team_316,2020
+610572ef-cee2-4c66-9ba9-40617d154d0f,Kompetisi Matematika,nasional,non_akademik,11/28/2024 00:00:00,105851101121,13/09/2025 14:27:13.013,tim,Tim 9,Team_555,2022
+9446d757-428b-4526-b17c-efac257725b2,Festival Film Pendek,lokal,akademik,6/2/2024 00:00:00,105851101121,13/09/2025 14:27:13.013,tim,Tim 6,Team_295,2024
+da344884-1cbb-4bb8-9d45-8ad58b19b968,Olimpiade Sains,regional,non_akademik,4/15/2021 00:00:00,105261111622,13/09/2025 14:27:13.013,individu,Tim 5,Team_702,2023
+37da399a-a803-449d-9ecd-f32e372da9e5,Lomba Esai,internasional,non_akademik,6/27/2020 00:00:00,105261111622,13/09/2025 14:27:13.013,individu,Tim 5,Team_539,2021
+0872937f-df26-45b6-bac4-839494c42d40,Lomba Poster,lokal,akademik,8/27/2024 00:00:00,105261111622,13/09/2025 14:27:13.013,tim,Tim 5,Team_254,2022
+36fa6de0-f864-4c01-b914-553add26ba1b,Turnamen E-Sports,nasional,non_akademik,6/18/2020 00:00:00,105421104519,13/09/2025 14:27:13.013,tim,Tim 7,Team_291,2021
+bf7dd63a-4de7-4b3e-aebd-64a5accfab6e,Kompetisi Robotika,nasional,akademik,6/6/2021 00:00:00,105421104519,13/09/2025 14:27:13.013,individu,Tim 1,Team_230,2021
+76334a88-ca30-476a-a4a3-1de17ab0acc2,Kompetisi Aplikasi Mobile,lokal,non_akademik,6/9/2022 00:00:00,105421104519,13/09/2025 14:27:13.013,tim,Tim 3,Team_973,2022
+58b19636-dec6-4332-9761-a765a71f159a,Lomba Esai,regional,non_akademik,12/18/2024 00:00:00,105421104519,13/09/2025 14:27:13.013,tim,Tim 5,Team_395,2020
+63ddf6b7-a9ac-4863-819d-8024502aa15a,Hackathon,nasional,non_akademik,1/13/2022 00:00:00,105711104519,13/09/2025 14:27:13.013,tim,Tim 2,Team_520,2022
+532cc802-e9ec-4059-91a2-22cd54038878,Lomba Video Kreatif,lokal,akademik,9/13/2020 00:00:00,105711104519,13/09/2025 14:27:13.013,tim,Tim 3,Team_826,2022
+5bbc60ab-f9dc-48bc-8c02-3ba3f0d9c818,Kompetisi Matematika,internasional,akademik,8/14/2024 00:00:00,105711104519,13/09/2025 14:27:13.013,tim,Tim 9,Team_564,2024
+ef5a8220-ec02-4794-a6b5-eda2796c671d,Lomba Debat,lokal,akademik,9/28/2023 00:00:00,105711104519,13/09/2025 14:27:13.013,individu,Tim 1,Team_679,2021
+4bc34abd-9df3-4a19-a9f9-b79fb3375404,Lomba Karya Tulis Ilmiah,nasional,akademik,7/10/2022 00:00:00,105961106721,13/09/2025 14:27:13.013,individu,Tim 10,Team_125,2022
+42390bdb-6b01-4559-96a6-fcde0641e6e5,Olimpiade Sains,regional,non_akademik,12/9/2021 00:00:00,105961106721,13/09/2025 14:27:13.013,tim,Tim 6,Team_632,2020
+e364610e-74ef-4da6-925e-11dccf9a9796,Lomba Poster,nasional,akademik,10/14/2021 00:00:00,105961106721,13/09/2025 14:27:13.013,individu,Tim 3,Team_776,2021
+483ac2be-b531-47cb-af01-ca30608e86ce,Olimpiade Sains,internasional,akademik,3/9/2023 00:00:00,105961106721,13/09/2025 14:27:13.013,tim,Tim 1,Team_825,2020
+796ef31c-76a0-45c7-a0c5-0467f8f172bb,Lomba Esai,regional,non_akademik,11/1/2024 00:00:00,105361100219,13/09/2025 14:27:13.013,tim,Tim 10,Team_305,2020
+556d2f5f-018e-416a-8292-958ef414e3a1,Lomba Esai,regional,non_akademik,8/9/2020 00:00:00,105361100219,13/09/2025 14:27:13.013,individu,Tim 3,Team_356,2021
+5c4a2cb9-80dc-4f68-9ac9-43ab3b44ba0a,Lomba Debat,internasional,akademik,4/18/2024 00:00:00,105361100219,13/09/2025 14:27:13.013,tim,Tim 4,Team_494,2020
+50c3d910-f4f4-47ce-a875-d4e5f695e475,Lomba Poster,regional,akademik,6/20/2024 00:00:00,105361100219,13/09/2025 14:27:13.013,individu,Tim 6,Team_246,2020
+a2384e4f-9c54-4380-ad37-81f4cf71d27b,Hackathon,lokal,non_akademik,12/7/2023 00:00:00,105611121619,13/09/2025 14:27:13.013,individu,Tim 7,Team_536,2022
+06858b72-389c-4890-9149-ca8f3a3b9196,Olimpiade Informatika,internasional,akademik,9/5/2021 00:00:00,105611121619,13/09/2025 14:27:13.013,tim,Tim 5,Team_360,2022
+61f68dd9-0155-4454-b910-8dd1cf80e041,Lomba Desain Grafis,lokal,akademik,3/3/2020 00:00:00,105611121619,13/09/2025 14:27:13.013,tim,Tim 10,Team_805,2020
+4dfff40a-11fd-4b81-93f1-4a906f77e0da,Olimpiade Informatika,internasional,akademik,3/15/2022 00:00:00,105611121619,13/09/2025 14:27:13.013,tim,Tim 2,Team_582,2021
+4149fa0d-e650-44af-9497-3e9f217bbb52,Kompetisi Robotika,regional,non_akademik,4/17/2021 00:00:00,105611121619,13/09/2025 14:27:13.013,tim,Tim 6,Team_579,2024
+1335f86c-0fff-4467-8082-413f3cb09662,Turnamen E-Sports,internasional,akademik,11/23/2020 00:00:00,105131100519,13/09/2025 14:27:13.013,tim,Tim 8,Team_247,2024
+d6fdb7cd-f409-46a7-8a30-4c97afcf50a2,Kompetisi Programming,internasional,akademik,8/5/2021 00:00:00,105131100519,13/09/2025 14:27:13.013,individu,Tim 3,Team_807,2024
+6a173eb7-b5b8-47e0-b793-b45b253bb592,Lomba Video Kreatif,nasional,akademik,8/1/2022 00:00:00,105131100519,13/09/2025 14:27:13.013,tim,Tim 10,Team_178,2023
+30f61654-8213-4358-beeb-71c68116d6cf,Olimpiade Sains,lokal,non_akademik,10/12/2021 00:00:00,105731111719,13/09/2025 14:27:13.013,individu,Tim 6,Team_546,2020
+87fceae6-647b-4a67-a01c-c96337479bed,Hackathon,regional,non_akademik,12/18/2022 00:00:00,105731111719,13/09/2025 14:27:13.013,tim,Tim 8,Team_206,2024
+a33b43aa-1e64-4de8-abaf-39760f6ce354,Lomba Debat,internasional,non_akademik,7/13/2023 00:00:00,105731111719,13/09/2025 14:27:13.013,tim,Tim 10,Team_736,2023
+3e311222-aa7b-4676-a058-8bf0801fd955,Lomba Fotografi,regional,akademik,8/22/2022 00:00:00,105731111719,13/09/2025 14:27:13.013,individu,Tim 2,Team_813,2023
+727d675f-9e5c-4020-86fe-61dedde04e97,Turnamen E-Sports,regional,akademik,2/13/2022 00:00:00,105641106120,13/09/2025 14:27:13.015,tim,Tim 3,Team_950,2022
+ef2a7d8e-df8e-47db-ac5e-842f6646c749,Kompetisi Aplikasi Mobile,regional,akademik,1/25/2023 00:00:00,105641106120,13/09/2025 14:27:13.015,tim,Tim 3,Team_278,2024
+5288b521-98fe-439e-b0d1-a3414e0cae6f,Kompetisi Business Plan,regional,akademik,7/26/2021 00:00:00,105641106120,13/09/2025 14:27:13.015,individu,Tim 8,Team_133,2020
+1e87d737-2ae4-4584-a3cc-df2cb088a34b,Festival Film Pendek,internasional,akademik,2/13/2024 00:00:00,105311105520,13/09/2025 14:27:13.015,individu,Tim 2,Team_520,2021
+84947492-75f2-4e99-8640-6b66824b67b9,Kompetisi Robotika,lokal,non_akademik,4/12/2023 00:00:00,105311105520,13/09/2025 14:27:13.015,tim,Tim 3,Team_928,2021
+2d07d73c-1e96-4c05-b261-de880c92d7df,Kompetisi Programming,nasional,akademik,5/18/2024 00:00:00,105651109921,13/09/2025 14:27:13.015,tim,Tim 1,Team_986,2024
+4426de95-2186-485b-8a16-7747cf321fae,Lomba Video Kreatif,internasional,non_akademik,12/21/2024 00:00:00,105651109921,13/09/2025 14:27:13.015,individu,Tim 7,Team_933,2024
+7625b78d-ee2f-40bb-8d13-07c444a5bb52,Festival Film Pendek,internasional,non_akademik,11/25/2020 00:00:00,105651104320,13/09/2025 14:27:13.015,individu,Tim 9,Team_364,2023
+59fb00b0-1067-428c-b603-918d4907ecd8,Lomba Esai,nasional,akademik,5/17/2023 00:00:00,105651104320,13/09/2025 14:27:13.015,tim,Tim 6,Team_637,2021
+9c8deec5-fa16-4704-b6e4-827b6b642b3d,Lomba Karya Tulis Ilmiah,internasional,akademik,10/1/2022 00:00:00,105651104320,13/09/2025 14:27:13.015,individu,Tim 4,Team_559,2020
+96a2f8a7-6c01-4108-8e12-85aa6bbc0fc9,Lomba Poster,lokal,akademik,10/17/2023 00:00:00,105611109820,13/09/2025 14:27:13.015,individu,Tim 2,Team_327,2020
+db1cc2a6-017d-4185-9ddb-824d5219c4fc,Turnamen E-Sports,nasional,akademik,3/4/2023 00:00:00,105611109820,13/09/2025 14:27:13.015,individu,Tim 10,Team_359,2023
+ba77b0e4-492f-41be-a2c3-dbca15c809f2,Turnamen E-Sports,lokal,non_akademik,7/20/2020 00:00:00,105611109820,13/09/2025 14:27:13.015,tim,Tim 9,Team_829,2024
+5f74443e-38fd-4883-82d4-4268ddcbb478,Lomba Desain Grafis,regional,non_akademik,2/20/2021 00:00:00,105611109820,13/09/2025 14:27:13.015,individu,Tim 8,Team_690,2023
+3df89e52-823b-4df8-92f8-f891a0023d15,Kompetisi Business Plan,internasional,non_akademik,6/19/2023 00:00:00,105611109820,13/09/2025 14:27:13.015,tim,Tim 9,Team_388,2024
+fc6874a0-a8db-4dc6-ae50-acdc6d22f802,Lomba Esai,lokal,non_akademik,12/4/2024 00:00:00,105191101420,13/09/2025 14:27:13.015,individu,Tim 5,Team_166,2022
+c87808ad-8be6-4e11-8630-906fc80e6470,Kompetisi Matematika,lokal,akademik,4/27/2021 00:00:00,105191101420,13/09/2025 14:27:13.015,tim,Tim 7,Team_292,2020
+53bdb433-79c2-4c69-879a-38bce0aa5317,Hackathon,lokal,akademik,7/16/2021 00:00:00,105191101420,13/09/2025 14:27:13.015,individu,Tim 7,Team_594,2020
+d05d0165-4d90-4c63-820d-5e77c1614c31,Lomba Desain Grafis,lokal,akademik,3/8/2020 00:00:00,105191101420,13/09/2025 14:27:13.015,individu,Tim 8,Team_704,2024
+aaa2f6e4-c48f-45db-8591-0a1b7a00974a,Lomba Esai,lokal,non_akademik,11/26/2020 00:00:00,105641103820,13/09/2025 14:27:13.015,tim,Tim 10,Team_984,2023
+fe9db80a-e962-48b8-ae86-87deacd9a120,Kompetisi Business Plan,internasional,akademik,10/27/2024 00:00:00,105611105520,13/09/2025 14:27:13.015,individu,Tim 10,Team_637,2024
+77b3f237-96d2-45ab-b98b-1134b0a6e817,Turnamen E-Sports,regional,non_akademik,12/21/2023 00:00:00,105611105520,13/09/2025 14:27:13.015,individu,Tim 2,Team_812,2020
+1470131e-fcc6-4439-859f-3a14de6e8a97,Lomba Esai,nasional,akademik,8/17/2021 00:00:00,105611105520,13/09/2025 14:27:13.015,individu,Tim 6,Team_387,2023
+2bc1a95e-0a23-4f03-b5ed-a6c54e0505dc,Festival Film Pendek,regional,akademik,11/2/2023 00:00:00,105611105520,13/09/2025 14:27:13.015,tim,Tim 3,Team_235,2021
+b2225282-5fed-4095-9c4e-ca50d824be65,Lomba Fotografi,regional,non_akademik,1/10/2020 00:00:00,105611105520,13/09/2025 14:27:13.015,individu,Tim 9,Team_926,2021
+b9dd08d3-09ac-473d-8ac6-0c772c910cec,Lomba Poster,regional,non_akademik,8/22/2024 00:00:00,105841106719,13/09/2025 14:27:13.015,individu,Tim 6,Team_744,2020
+c24ca47c-a6a2-43b8-afbc-a74c3aafaf6f,Lomba Poster,lokal,akademik,1/8/2023 00:00:00,105611110319,13/09/2025 14:27:13.015,individu,Tim 7,Team_269,2021
+92ed9650-ba7b-4c2f-85f6-a82ac24ed584,Olimpiade Sains,lokal,non_akademik,6/8/2021 00:00:00,105391100920,13/09/2025 14:27:13.015,individu,Tim 10,Team_531,2020
+ae7742ef-07ff-448e-94b3-6e8c1c73f80e,Olimpiade Informatika,nasional,akademik,3/3/2021 00:00:00,105391100920,13/09/2025 14:27:13.015,tim,Tim 5,Team_403,2024
+dae3a124-958c-48d5-a0f4-f9f133b91909,Kompetisi Programming,nasional,akademik,12/14/2020 00:00:00,105391100920,13/09/2025 14:27:13.015,individu,Tim 1,Team_995,2022
+ef2e710c-8eda-42da-a01f-610b005d5b8e,Turnamen E-Sports,lokal,akademik,11/20/2020 00:00:00,105721128920,13/09/2025 14:27:13.015,tim,Tim 1,Team_969,2021
+cbbbdbac-aa71-49d0-a438-dcb5aeaa243e,Lomba Esai,nasional,non_akademik,6/2/2024 00:00:00,105721128920,13/09/2025 14:27:13.015,tim,Tim 5,Team_683,2021
+319e208e-0617-4c0b-bb56-a8c8747fff0c,Kompetisi Matematika,lokal,non_akademik,5/18/2021 00:00:00,105721128920,13/09/2025 14:27:13.015,individu,Tim 8,Team_511,2021
+cde20601-67a0-4631-87c1-d896470c8144,Lomba Inovasi,nasional,akademik,3/27/2023 00:00:00,105721128920,13/09/2025 14:27:13.015,individu,Tim 2,Team_723,2024
+35c38df6-b8c9-4eac-8d77-17c1c431f2ed,Lomba Poster,nasional,akademik,10/27/2020 00:00:00,105721128920,13/09/2025 14:27:13.015,individu,Tim 5,Team_428,2022
+3b2cad4c-89cf-400e-8ae9-9c1ed32f5f65,Lomba Esai,regional,akademik,12/4/2023 00:00:00,105331100420,13/09/2025 14:27:13.015,individu,Tim 6,Team_556,2023
+6dc7ab2e-2c75-4587-a43c-00bf1208695b,Lomba Inovasi,nasional,akademik,7/7/2024 00:00:00,105191115719,13/09/2025 14:27:13.015,tim,Tim 6,Team_617,2022
+b8b2221e-02a2-4d17-a51d-794b3aafb369,Olimpiade Informatika,nasional,non_akademik,7/12/2022 00:00:00,105191115719,13/09/2025 14:27:13.015,tim,Tim 4,Team_395,2024
+a42d865e-9a24-40da-a4df-680872a2dd53,Lomba Debat,lokal,non_akademik,9/17/2023 00:00:00,105191115719,13/09/2025 14:27:13.016,tim,Tim 6,Team_123,2022
+9fd7b90f-2d94-4623-8b1a-562456e3d46f,Lomba Inovasi,internasional,non_akademik,3/21/2023 00:00:00,105191115719,13/09/2025 14:27:13.016,tim,Tim 4,Team_136,2022
+9265da4c-8c49-4495-a16c-a2530af9abdc,Lomba Video Kreatif,internasional,akademik,4/8/2023 00:00:00,105191115719,13/09/2025 14:27:13.016,individu,Tim 7,Team_879,2020
+7caa2875-b3c3-4d86-a394-b26a7ed50ff7,Olimpiade Sains,nasional,akademik,7/7/2024 00:00:00,105351109119,13/09/2025 14:27:13.016,individu,Tim 2,Team_931,2022
+a952b8c6-13b0-4879-829b-c0943b1c973b,Lomba Debat,regional,non_akademik,7/10/2022 00:00:00,105351109119,13/09/2025 14:27:13.016,individu,Tim 1,Team_875,2021
+02532562-3e89-48b8-9a14-fb8fab9e5292,Lomba Poster,internasional,akademik,9/23/2023 00:00:00,105351109119,13/09/2025 14:27:13.016,individu,Tim 10,Team_797,2021
+4eb0f218-1e2d-436d-989c-8bc34b17eefa,Kompetisi Matematika,regional,akademik,3/23/2022 00:00:00,105351109119,13/09/2025 14:27:13.016,individu,Tim 8,Team_918,2023
+68317f0b-1240-435c-a9d3-bd3a0b7fec0a,Lomba Esai,regional,akademik,2/22/2023 00:00:00,105741102820,13/09/2025 14:27:13.016,tim,Tim 3,Team_224,2023
+948104e3-5227-4dab-a373-2bb9ee880569,Kompetisi Matematika,nasional,non_akademik,3/6/2020 00:00:00,105741102820,13/09/2025 14:27:13.016,tim,Tim 2,Team_864,2022
+3c19b8c2-5b12-4c2a-8e8a-75b2c8a90e5d,Hackathon,lokal,akademik,12/9/2021 00:00:00,105741102820,13/09/2025 14:27:13.016,individu,Tim 5,Team_901,2024
+1d5fe413-c141-4cb9-9a92-683e141265f6,Kompetisi Aplikasi Mobile,regional,akademik,5/1/2023 00:00:00,105741102820,13/09/2025 14:27:13.016,tim,Tim 4,Team_445,2020
+3f51ef11-f58c-4a74-b1b2-f91843794151,Kompetisi Business Plan,nasional,non_akademik,4/10/2022 00:00:00,105391102020,13/09/2025 14:27:13.016,tim,Tim 2,Team_840,2021
+ac68c69a-09e3-4034-b982-4815dc3555d7,Lomba Debat,regional,non_akademik,1/5/2020 00:00:00,105391102020,13/09/2025 14:27:13.016,individu,Tim 4,Team_511,2022
+e827459b-a5d1-47f8-a5bc-c9edd323bd4b,Kompetisi Matematika,nasional,non_akademik,3/13/2022 00:00:00,105391102020,13/09/2025 14:27:13.016,tim,Tim 5,Team_485,2023

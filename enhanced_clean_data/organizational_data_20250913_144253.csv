@@ -1,0 +1,212 @@
+nim,organization_name,organization_type,role,is_leadership,start_date,end_date,duration_months,is_active
+105131100519,Student Association,professional,Ketua,True,2024-04-30,2026-03-21,23,True
+105131100519,NGO,social,Wakil Ketua,True,2025-03-19,2028-07-01,40,True
+105131100519,UKM Seni,arts,Ketua,True,2024-06-23,2025-05-19,11,False
+105131100519,Laboratorium,academic,Ketua,True,2024-08-02,2027-12-15,41,True
+105191115719,Business Club,professional,Anggota Pengurus,False,2023-03-09,2024-10-29,20,False
+105191115719,Music,arts,Ketua,True,2021-10-15,2023-02-07,16,False
+105241100721,Basket,sports,Koordinator,True,2024-06-30,2025-09-23,15,True
+105241100721,ROHIS,religious,Wakil Ketua,True,2025-02-27,2027-08-16,30,True
+105311101620,Religious Study Group,religious,Koordinator,True,2023-02-16,2023-10-14,8,False
+105421100320,UKM Seni,arts,Anggota Pengurus,False,2022-08-10,2023-07-06,11,False
+105421100320,Religious Study Group,religious,Bendahara,True,2025-06-12,2026-04-08,10,True
+105421104519,Student Association,professional,Koordinator,True,2024-05-25,2025-04-20,11,False
+105611106021,UKM Akademik,academic,Koordinator,True,2022-02-20,2025-01-05,35,False
+105611109820,Masjid,religious,Kepala Divisi,True,2024-07-11,2026-10-29,28,True
+105611110319,Professional Club,professional,Wakil Ketua,True,2022-02-21,2025-10-03,44,True
+105611110319,NGO,social,Sekretaris,True,2023-07-29,2026-06-13,35,True
+105611110319,Atletik,sports,Bendahara,True,2025-05-22,2027-07-11,26,True
+105611110319,ORMAWA,academic,Kepala Divisi,True,2024-03-14,2026-09-30,31,True
+105611121619,BEM,academic,Kepala Divisi,True,2022-01-10,2023-08-03,19,False
+105641103820,Badminton,sports,Anggota,False,2024-03-20,2025-06-13,15,False
+105651103921,NGO,social,Koordinator,True,2023-04-20,2026-10-31,43,True
+105651103921,Professional Club,professional,Kepala Divisi,True,2024-12-04,2026-07-27,20,True
+105651103921,UKM Seni,arts,Ketua,True,2024-11-04,2025-11-29,13,True
+105651104320,Student Association,professional,Anggota Pengurus,False,2025-05-06,2028-12-16,44,True
+105651104320,Badminton,sports,Anggota,False,2024-04-17,2027-07-01,39,True
+105651109921,UKM Seni,arts,Wakil Ketua,True,2024-03-16,2027-06-29,40,True
+105651109921,ROHIS,religious,Koordinator,True,2024-10-25,2027-07-12,33,True
+105721102119,UKM Olahraga,sports,Koordinator,True,2024-09-13,2027-10-28,38,True
+105721102119,Student Association,professional,Koordinator,True,2022-11-09,2026-08-20,46,True
+105721121819,Teater,arts,Sekretaris,True,2024-10-18,2027-03-07,29,True
+105721124321,Photography,arts,Ketua,True,2023-11-20,2027-07-02,44,True
+105721124321,UKM Olahraga,sports,Wakil Ketua,True,2023-12-24,2026-05-12,29,True
+105721124321,Volunteer,social,Bendahara,True,2025-04-05,2028-09-16,42,True
+105721124321,UKM Akademik,academic,Wakil Ketua,True,2024-12-30,2028-04-13,40,True
+105721128920,Social Movement,social,Sekretaris,True,2022-09-29,2024-07-20,22,False
+105721128920,Professional Club,professional,Bendahara,True,2021-11-01,2025-02-13,40,False
+105721128920,Religious Study Group,religious,Anggota Pengurus,False,2022-01-22,2026-01-01,48,True
+105721144418,Islamic Organization,religious,Anggota,False,2024-04-24,2025-05-19,13,False
+105721144418,Volunteer,social,Kepala Divisi,True,2022-05-28,2022-12-24,7,False
+105731111719,Teater,arts,Bendahara,True,2025-04-21,2025-10-18,6,True
+105731122419,Business Club,professional,Ketua,True,2025-04-28,2026-12-19,20,True
+105731122419,HIMA,academic,Wakil Ketua,True,2024-05-14,2027-06-28,38,True
+105731122419,Badminton,sports,Bendahara,True,2024-12-17,2028-03-31,40,True
+105731124818,Business Club,professional,Anggota,False,2023-01-19,2024-10-10,21,False
+105731124818,Tim Futsal,sports,Wakil Ketua,True,2022-01-03,2022-12-29,12,False
+105741102820,Basket,sports,Anggota Pengurus,False,2023-01-31,2025-09-17,32,True
+105831104618,Student Association,professional,Wakil Ketua,True,2023-06-12,2024-03-08,9,False
+105831104618,ROHIS,religious,Bendahara,True,2024-08-20,2026-02-11,18,True
+105841106719,Dance,arts,Sekretaris,True,2024-09-03,2027-05-21,33,True
+105841106719,Islamic Organization,religious,Bendahara,True,2023-03-21,2024-01-15,10,False
+105851101121,UKM Seni,arts,Ketua,True,2022-09-02,2026-07-13,47,True
+105261111622,ORMAWA,academic,Bendahara,True,2023-06-04,2024-09-26,16,False
+105261111622,Dance,arts,Bendahara,True,2025-05-16,2027-12-02,31,True
+105261111622,Islamic Organization,religious,Ketua,True,2024-03-19,2026-09-05,30,True
+105261111622,Basket,sports,Anggota Pengurus,False,2021-12-28,2025-05-11,41,False
+105331100420,Professional Club,professional,Sekretaris,True,2024-01-15,2025-07-08,18,False
+105331100420,Volunteer,social,Ketua,True,2025-05-19,2027-07-08,26,True
+105331100420,Laboratorium,academic,Anggota,False,2022-09-22,2025-11-05,38,True
+105331100420,ROHIS,religious,Wakil Ketua,True,2025-04-26,2026-09-18,17,True
+105351102818,UKM Seni,arts,Bendahara,True,2025-01-11,2027-07-30,31,True
+105351102818,Student Association,professional,Ketua,True,2025-03-30,2028-12-09,45,True
+105351102818,Atletik,sports,Kepala Divisi,True,2024-07-22,2026-05-13,22,True
+105351102818,Religious Study Group,religious,Bendahara,True,2023-06-26,2025-04-16,22,False
+105351102818,HIMA,academic,Anggota,False,2025-04-18,2027-06-07,26,True
+105351109119,UKM Akademik,academic,Wakil Ketua,True,2022-09-08,2023-07-05,10,False
+105351109119,Religious Study Group,religious,Sekretaris,True,2025-04-26,2027-08-14,28,True
+105361107219,Community Service,social,Koordinator,True,2023-03-31,2024-07-23,16,False
+105361107219,Business Club,professional,Koordinator,True,2022-01-13,2025-09-24,45,True
+105381100120,UKM Seni,arts,Koordinator,True,2025-02-13,2029-01-23,48,True
+105391100920,Community Service,social,Wakil Ketua,True,2022-08-07,2023-08-02,12,False
+105391100920,Religious Study Group,religious,Koordinator,True,2024-07-09,2028-02-19,44,True
+105391100920,Teater,arts,Koordinator,True,2022-12-18,2026-01-31,38,True
+105391101820,ROHIS,religious,Wakil Ketua,True,2023-04-30,2027-02-08,46,True
+105391101920,ROHIS,religious,Ketua,True,2024-12-20,2027-03-10,27,True
+105391101920,Tim Futsal,sports,Anggota,False,2021-09-29,2025-02-10,41,False
+105391102020,Atletik,sports,Ketua,True,2025-04-12,2026-05-07,13,True
+105391102020,Volunteer,social,Kepala Divisi,True,2022-08-09,2026-02-19,43,True
+105391102020,Islamic Organization,religious,Sekretaris,True,2023-12-22,2024-08-18,8,False
+105401130019,ROHIS,religious,Kepala Divisi,True,2021-11-17,2023-06-10,19,False
+105411100520,Volunteer,social,Kepala Divisi,True,2023-06-04,2026-10-16,41,True
+105411100520,Business Club,professional,Sekretaris,True,2024-10-16,2026-07-08,21,True
+105411100520,Islamic Organization,religious,Ketua,True,2023-11-03,2025-03-27,17,False
+105411100520,Tim Futsal,sports,Koordinator,True,2021-10-08,2023-01-31,16,False
+105711104519,UKM Akademik,academic,Ketua,True,2024-06-15,2027-05-31,36,True
+105811106917,Social Movement,social,Kepala Divisi,True,2024-06-04,2026-06-24,25,True
+105811106917,ROHIS,religious,Bendahara,True,2023-11-11,2026-05-29,31,True
+105811116917,ROHIS,religious,Koordinator,True,2022-02-08,2024-05-28,28,False
+105811116917,Professional Club,professional,Kepala Divisi,True,2025-01-20,2025-08-18,7,False
+105811116917,Tim Futsal,sports,Koordinator,True,2025-02-03,2025-10-01,8,True
+105811116917,Dance,arts,Kepala Divisi,True,2023-04-04,2025-05-23,26,False
+105951102020,Photography,arts,Wakil Ketua,True,2022-06-21,2024-12-07,30,False
+105951102920,Community Service,social,Ketua,True,2025-09-10,2028-05-27,33,True
+105961106721,Photography,arts,Bendahara,True,2023-04-14,2025-08-31,29,False
+105961111419,HIMA,academic,Kepala Divisi,True,2025-01-01,2028-12-11,48,True
+105961109820,Professional Club,professional,Koordinator,True,2023-05-31,2027-05-10,48,True
+105961109820,Islamic Organization,religious,Koordinator,True,2024-12-27,2028-05-10,41,True
+105831102320,Social Movement,social,Anggota Pengurus,False,2022-04-02,2023-08-25,17,False
+105831102320,Professional Club,professional,Anggota Pengurus,False,2025-09-13,2029-01-25,41,True
+105731105120,Religious Study Group,religious,Bendahara,True,2022-06-14,2025-02-28,33,False
+105941102121,Music,arts,Anggota,False,2023-03-23,2026-01-06,34,True
+105941101621,Student Association,professional,Anggota,False,2022-01-03,2023-04-28,16,False
+105941101621,HIMA,academic,Kepala Divisi,True,2024-05-20,2025-04-15,11,False
+105941101621,Tim Futsal,sports,Bendahara,True,2025-07-25,2026-10-18,15,True
+105941101621,NGO,social,Anggota,False,2025-04-17,2028-12-27,45,True
+105641104123,Badminton,sports,Bendahara,True,2022-12-06,2025-05-24,30,False
+105641104123,Teater,arts,Sekretaris,True,2021-11-05,2025-09-15,47,True
+105731116419,ORMAWA,academic,Anggota Pengurus,False,2024-09-18,2026-05-11,20,True
+105731116419,Professional Club,professional,Ketua,True,2024-04-21,2027-09-03,41,True
+105651106421,UKM Akademik,academic,Sekretaris,True,2021-12-16,2024-10-31,35,False
+105721138822,Photography,arts,Kepala Divisi,True,2022-04-08,2025-01-22,34,False
+105731104521,Business Club,professional,Anggota Pengurus,False,2023-03-15,2026-07-27,41,True
+105831102822,Social Movement,social,Anggota,False,2024-04-25,2026-02-14,22,True
+105831102822,Atletik,sports,Anggota,False,2024-05-12,2028-02-21,46,True
+105721116821,Islamic Organization,religious,Wakil Ketua,True,2024-05-21,2026-05-11,24,True
+105721116821,Basket,sports,Kepala Divisi,True,2025-04-01,2028-07-14,40,True
+105961101922,NGO,social,Bendahara,True,2021-10-23,2024-04-10,30,False
+105961101922,Masjid,religious,Wakil Ketua,True,2023-06-02,2026-01-17,32,True
+105841106522,Islamic Organization,religious,Anggota Pengurus,False,2024-07-17,2025-04-13,9,False
+105841116522,Badminton,sports,Ketua,True,2023-07-27,2027-01-07,42,True
+105841116522,UKM Seni,arts,Kepala Divisi,True,2023-07-08,2025-07-27,25,False
+105841116522,Business Club,professional,Bendahara,True,2024-06-21,2027-07-06,37,True
+105841116522,Social Movement,social,Anggota,False,2023-07-10,2024-02-05,7,False
+105941100322,Islamic Organization,religious,Sekretaris,True,2024-12-26,2027-11-11,35,True
+105421105620,Photography,arts,Ketua,True,2022-05-20,2024-12-05,31,False
+105241101923,UKM Seni,arts,Wakil Ketua,True,2023-04-20,2027-02-28,47,True
+105241101923,Social Movement,social,Sekretaris,True,2024-03-30,2024-12-25,9,False
+105241101923,Professional Club,professional,Bendahara,True,2023-11-14,2026-09-29,35,True
+105241101923,Islamic Organization,religious,Koordinator,True,2024-04-15,2026-12-01,32,True
+105241101923,UKM Akademik,academic,Ketua,True,2025-05-30,2028-09-11,40,True
+105641106822,Masjid,religious,Wakil Ketua,True,2025-06-23,2029-05-03,47,True
+105651104923,BEM,academic,Bendahara,True,2022-03-21,2022-10-17,7,False
+105841109622,NGO,social,Sekretaris,True,2021-12-12,2024-11-26,36,False
+105841109622,Laboratorium,academic,Bendahara,True,2021-10-12,2024-08-27,35,False
+105841109622,Music,arts,Sekretaris,True,2022-04-19,2025-11-29,44,True
+105841116322,Business Club,professional,Wakil Ketua,True,2023-12-16,2025-04-09,16,False
+105841116322,Laboratorium,academic,Ketua,True,2022-06-22,2024-07-11,25,False
+105421103922,Professional Club,professional,Anggota Pengurus,False,2025-04-11,2026-10-03,18,True
+105421103922,Teater,arts,Wakil Ketua,True,2021-11-12,2023-12-02,25,False
+105311101723,UKM Seni,arts,Ketua,True,2022-09-18,2025-01-05,28,False
+105311101723,Basket,sports,Wakil Ketua,True,2022-01-26,2025-03-11,38,False
+105311101723,ROHIS,religious,Anggota Pengurus,False,2025-02-09,2028-02-24,37,True
+105311101723,Community Service,social,Anggota,False,2023-04-06,2024-06-29,15,False
+105721110023,Community Service,social,Anggota,False,2023-04-05,2026-02-18,35,True
+105721110023,Professional Club,professional,Kepala Divisi,True,2025-03-20,2026-12-10,21,True
+105651102723,Islamic Organization,religious,Bendahara,True,2022-07-04,2025-05-19,35,False
+105651102723,Business Club,professional,Anggota Pengurus,False,2025-07-17,2027-10-05,27,True
+105651102723,Music,arts,Sekretaris,True,2024-07-06,2027-07-21,37,True
+105651102822,Religious Study Group,religious,Kepala Divisi,True,2022-05-12,2024-04-01,23,False
+105651102822,Atletik,sports,Ketua,True,2024-08-18,2027-11-01,39,True
+105501108822,BEM,academic,Anggota Pengurus,False,2022-08-03,2025-08-17,37,False
+105741100322,Social Movement,social,Anggota,False,2025-08-09,2028-05-25,34,True
+105741100322,HIMA,academic,Bendahara,True,2021-10-28,2024-05-15,31,False
+105841100322,Community Service,social,Kepala Divisi,True,2022-08-07,2025-07-22,36,False
+105841100322,Professional Club,professional,Anggota Pengurus,False,2023-11-06,2027-03-20,41,True
+105841100322,Badminton,sports,Koordinator,True,2024-04-17,2026-05-07,25,True
+105841100322,ORMAWA,academic,Bendahara,True,2025-01-12,2027-03-03,26,True
+105751100921,Business Club,professional,Sekretaris,True,2024-06-27,2025-12-19,18,True
+105451102121,Professional Club,professional,Koordinator,True,2022-10-05,2026-04-17,43,True
+105451102121,Music,arts,Wakil Ketua,True,2024-01-16,2025-07-09,18,False
+105391100922,Community Service,social,Sekretaris,True,2025-08-16,2027-09-05,25,True
+105391100922,Student Association,professional,Koordinator,True,2025-05-25,2026-01-20,8,True
+105391100922,Tim Futsal,sports,Anggota,False,2025-08-19,2026-08-14,12,True
+105391100922,Music,arts,Anggota,False,2023-03-26,2026-03-10,36,True
+105381101422,Masjid,religious,Ketua,True,2023-01-09,2024-10-30,22,False
+105381101422,ORMAWA,academic,Anggota Pengurus,False,2025-04-15,2028-04-29,37,True
+105251102122,UKM Seni,arts,Sekretaris,True,2022-07-19,2023-10-12,15,False
+105251102122,ROHIS,religious,Bendahara,True,2022-07-29,2023-08-23,13,False
+105251102122,Business Club,professional,Bendahara,True,2023-07-27,2026-10-09,39,True
+105251102122,Social Movement,social,Koordinator,True,2023-04-19,2026-10-30,43,True
+105251103722,ROHIS,religious,Wakil Ketua,True,2022-03-12,2023-10-03,19,False
+105251103722,Community Service,social,Wakil Ketua,True,2024-05-10,2025-09-02,16,False
+105251103722,Atletik,sports,Wakil Ketua,True,2025-09-08,2027-01-01,16,True
+105401111321,Badminton,sports,Anggota,False,2025-07-09,2027-06-29,24,True
+105401111321,Community Service,social,Koordinator,True,2025-04-21,2028-03-06,35,True
+105361102122,Student Association,professional,Koordinator,True,2022-05-25,2026-03-05,46,True
+105361102122,Social Movement,social,Wakil Ketua,True,2024-06-10,2027-09-23,40,True
+105261106021,Student Association,professional,Koordinator,True,2025-04-20,2026-07-14,15,True
+105261106021,BEM,academic,Koordinator,True,2022-07-06,2026-02-15,44,True
+105261106021,Badminton,sports,Wakil Ketua,True,2021-11-03,2024-09-18,35,False
+105131108822,Islamic Organization,religious,Koordinator,True,2022-09-04,2025-10-18,38,True
+105741103621,Badminton,sports,Wakil Ketua,True,2025-06-24,2029-02-03,44,True
+105741103621,Music,arts,Koordinator,True,2025-03-10,2025-10-06,7,True
+105741103621,Volunteer,social,Koordinator,True,2025-06-23,2028-12-04,42,True
+105241100821,Social Movement,social,Anggota,False,2024-09-07,2026-07-29,23,True
+105241109222,Dance,arts,Anggota,False,2023-01-25,2023-12-21,11,False
+105241109222,Islamic Organization,religious,Kepala Divisi,True,2021-12-11,2024-01-30,26,False
+105251105619,BEM,academic,Kepala Divisi,True,2021-10-24,2024-06-10,32,False
+105361100721,Basket,sports,Anggota Pengurus,False,2025-06-30,2028-11-11,41,True
+105361100721,UKM Seni,arts,Kepala Divisi,True,2023-11-21,2025-09-11,22,False
+105361100721,UKM Akademik,academic,Ketua,True,2022-08-29,2026-08-08,48,True
+105251101922,Badminton,sports,Ketua,True,2022-10-18,2024-04-10,18,False
+105251101922,Islamic Organization,religious,Anggota,False,2024-07-24,2025-04-20,9,False
+105361100522,Masjid,religious,Koordinator,True,2021-10-14,2024-07-30,34,False
+105361100522,UKM Seni,arts,Ketua,True,2022-04-16,2026-01-25,46,True
+105361100522,NGO,social,Koordinator,True,2025-08-16,2028-12-28,41,True
+105361100522,Professional Club,professional,Wakil Ketua,True,2025-01-24,2026-09-16,20,True
+105351105221,UKM Olahraga,sports,Sekretaris,True,2024-01-25,2027-02-08,37,True
+105351105221,Business Club,professional,Koordinator,True,2022-12-30,2025-08-16,32,False
+105271104620,Tim Futsal,sports,Anggota,False,2024-11-21,2028-04-04,41,True
+105271104620,Teater,arts,Sekretaris,True,2024-02-26,2024-12-22,10,False
+105461254023,Basket,sports,Koordinator,True,2024-02-12,2024-08-10,6,False
+105461254023,Islamic Organization,religious,Sekretaris,True,2022-09-06,2025-06-22,34,False
+105461254023,Professional Club,professional,Kepala Divisi,True,2022-08-28,2026-01-09,41,True
+105461217123,Badminton,sports,Kepala Divisi,True,2021-10-16,2023-04-09,18,False
+105461217123,Social Movement,social,Bendahara,True,2025-06-16,2028-02-01,32,True
+105461262323,Islamic Organization,religious,Anggota Pengurus,False,2021-12-24,2024-06-11,30,False
+105461262323,Social Movement,social,Ketua,True,2022-11-20,2024-01-14,14,False
+105461213423,Music,arts,Wakil Ketua,True,2025-02-21,2027-12-08,34,True
+105461213423,Professional Club,professional,Ketua,True,2023-05-28,2024-08-20,15,False
+105461213423,Volunteer,social,Anggota,False,2023-10-21,2025-08-11,22,False
+105461213423,Badminton,sports,Wakil Ketua,True,2021-12-02,2024-02-20,27,False

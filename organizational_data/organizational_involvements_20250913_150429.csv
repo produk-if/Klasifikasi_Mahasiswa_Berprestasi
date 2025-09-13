@@ -1,0 +1,262 @@
+nim,organization_name,organization_type,organization_category,duration_months,is_current_member,highest_role,roles_held,selectivity_score,time_commitment
+105131100519.0,Robotika,special_interest,technology,14,True,Team Leader,2,0.7,High
+105191101420.0,Himpunan Mahasiswa Teknik,professional,engineering,17,True,Ketua,3,0.5,Medium
+105191115719.0,Asosiasi Mahasiswa Psikologi,professional,psychology,5,True,Anggota,1,0.6,Medium
+105191115719.0,Tutor Sebaya,academic,education,3,False,Tutor,1,0.5,Low
+105241100721.0,Teater,special_interest,arts,8,True,Pemain,1,0.5,Medium
+105311101620.0,Pendampingan Masyarakat,social_service,community,3,False,Pendamping,1,0.7,Medium
+105311105520.0,Asosiasi Mahasiswa Psikologi,professional,psychology,13,True,Anggota,1,0.6,Medium
+105311105520.0,BEM Fakultas,student_government,governance,11,True,Anggota,1,0.8,High
+105311105520.0,Perhimpunan Mahasiswa Hukum,professional,law,12,False,Anggota,1,0.5,Medium
+105421100320.0,Senat Mahasiswa,student_government,governance,13,False,Wakil Ketua,2,0.9,High
+105421104519.0,Senat Mahasiswa,student_government,governance,10,True,Senator,1,0.9,High
+105421104519.0,BEM Fakultas,student_government,governance,5,True,Anggota,1,0.8,High
+105421104519.0,Ikatan Mahasiswa Akuntansi,professional,business,6,True,Anggota,1,0.4,Medium
+105421104519.0,Perhimpunan Mahasiswa Hukum,professional,law,10,False,Koordinator Kajian,2,0.5,Medium
+105611105520.0,Ikatan Mahasiswa Akuntansi,professional,business,19,True,Anggota,1,0.4,Medium
+105611105520.0,Persekutuan Doa Kristen,religious,spiritual,11,True,Anggota,1,0.3,Medium
+105611106021.0,Kelompok Studi Penelitian,academic,research,4,False,Anggota,1,0.6,Medium
+105611106021.0,Tutor Sebaya,academic,education,5,True,Tutor,1,0.5,Low
+105611109820.0,Laboratorium Riset,academic,research,13,True,Koordinator,2,0.7,High
+105611109820.0,Keluarga Mahasiswa Hindu,religious,spiritual,8,True,Anggota,1,0.4,Low
+105611110319.0,Jurnalistik,special_interest,media,14,True,Editor,2,0.4,Medium
+105611110319.0,Robotika,special_interest,technology,10,False,Anggota,1,0.7,High
+105611110319.0,Tim Debat,special_interest,competition,7,True,Anggota,1,0.8,High
+105611110319.0,Kerohanian Islam,religious,spiritual,6,True,Anggota,1,0.3,Medium
+105611121619.0,Asosiasi Mahasiswa Psikologi,professional,psychology,13,True,Anggota,1,0.6,Medium
+105611121619.0,Forum Mahasiswa Kedokteran,professional,medical,18,True,Koordinator Riset,2,0.7,High
+105641103820.0,UKM Olahraga,special_interest,sports,9,True,Anggota,1,0.4,Medium
+105641103820.0,Tutor Sebaya,academic,education,5,True,Tutor,1,0.5,Low
+105641103820.0,Fotografi,special_interest,arts,15,True,Anggota,1,0.3,Low
+105641103820.0,Forum Mahasiswa Kedokteran,professional,medical,11,False,Anggota,1,0.7,High
+105641106120.0,DPM Fakultas,student_government,governance,11,True,Anggota,1,0.7,Medium
+105641106120.0,ORMAWA Jurusan,student_government,governance,7,False,Ketua,3,0.6,Medium
+105641106120.0,Robotika,special_interest,technology,10,False,Anggota,1,0.7,High
+105641106120.0,Ikatan Mahasiswa Akuntansi,professional,business,9,True,Anggota,1,0.4,Medium
+105641106120.0,Jurnalistik,special_interest,media,7,True,Reporter,1,0.4,Medium
+105651104320.0,Himpunan Mahasiswa Teknik,professional,engineering,21,True,Koordinator Divisi,2,0.5,Medium
+105651104320.0,Dharma Wacana Buddha,religious,spiritual,1,True,Anggota,1,0.4,Low
+105651104320.0,Perhimpunan Mahasiswa Hukum,professional,law,8,True,Anggota,1,0.5,Medium
+105651104320.0,ORMAWA Jurusan,student_government,governance,14,True,Koordinator,2,0.6,Medium
+105651109921.0,DPM Fakultas,student_government,governance,13,True,Anggota,1,0.7,Medium
+105651109921.0,Tim Olimpiade,academic,competition,5,False,Anggota,1,0.8,High
+105651109921.0,Fotografi,special_interest,arts,16,True,Anggota,1,0.3,Low
+105651109921.0,Bakti Sosial Mahasiswa,social_service,community,15,True,Relawan,1,0.3,Low
+105721102119.0,Perhimpunan Mahasiswa Hukum,professional,law,13,True,Koordinator Kajian,2,0.5,Medium
+105721102119.0,Ikatan Mahasiswa Akuntansi,professional,business,6,True,Anggota,1,0.4,Medium
+105721102119.0,Relawan Bencana,social_service,emergency,10,True,Relawan,1,0.6,High
+105721121819.0,Tim Olimpiade,academic,competition,5,True,Anggota,1,0.8,High
+105721121819.0,Ikatan Mahasiswa Akuntansi,professional,business,14,True,Anggota,1,0.4,Medium
+105721121819.0,Forum Mahasiswa Kedokteran,professional,medical,7,True,Anggota,1,0.7,High
+105721121819.0,Relawan Bencana,social_service,emergency,17,True,Koordinator Tim,2,0.6,High
+105721124321.0,Tutor Sebaya,academic,education,5,True,Tutor,1,0.5,Low
+105721124321.0,Senat Mahasiswa,student_government,governance,14,True,Senator,1,0.9,High
+105721124321.0,DPM Fakultas,student_government,governance,8,True,Anggota,1,0.7,Medium
+105721124321.0,Kelompok Studi Penelitian,academic,research,6,True,Anggota,1,0.6,Medium
+105721124321.0,Kerohanian Islam,religious,spiritual,6,True,Anggota,1,0.3,Medium
+105721124321.0,BEM Fakultas,student_government,governance,15,True,Wakil Ketua,3,0.8,High
+105721128920.0,Kelompok Studi Penelitian,academic,research,9,False,Anggota,1,0.6,Medium
+105721128920.0,Perhimpunan Mahasiswa Hukum,professional,law,8,False,Anggota,1,0.5,Medium
+105721128920.0,Pendampingan Masyarakat,social_service,community,6,False,Pendamping,1,0.7,Medium
+105721128920.0,Donor Darah,social_service,health,12,True,Donor,1,0.2,Low
+105721144418.0,UKM Olahraga,special_interest,sports,13,True,Koordinator Cabang,2,0.4,Medium
+105721144418.0,ORMAWA Jurusan,student_government,governance,8,True,Anggota,1,0.6,Medium
+105731105220.0,ORMAWA Jurusan,student_government,governance,8,False,Anggota,1,0.6,Medium
+105731105220.0,Relawan Bencana,social_service,emergency,8,True,Relawan,1,0.6,High
+105731105220.0,Bakti Sosial Mahasiswa,social_service,community,11,True,Relawan,1,0.3,Low
+105731111719.0,Himpunan Mahasiswa Teknik,professional,engineering,9,True,Anggota,1,0.5,Medium
+105731111719.0,Forum Mahasiswa Kedokteran,professional,medical,11,False,Anggota,1,0.7,High
+105731122419.0,Kelompok Studi Penelitian,academic,research,4,True,Asisten Peneliti,2,0.6,Medium
+105731122419.0,DPM Fakultas,student_government,governance,16,False,Anggota,1,0.7,Medium
+105731124818.0,Kelompok Studi Penelitian,academic,research,10,True,Anggota,1,0.6,Medium
+105741102820.0,Teater,special_interest,arts,2,False,Pemain,1,0.5,Medium
+105741102820.0,Fotografi,special_interest,arts,15,True,Koordinator Event,2,0.3,Low
+105841106719.0,ORMAWA Jurusan,student_government,governance,15,False,Anggota,1,0.6,Medium
+105841106719.0,Kerohanian Islam,religious,spiritual,13,True,Koordinator Divisi,2,0.3,Medium
+105261111622.0,Paduan Suara,special_interest,arts,6,True,Section Leader,2,0.6,Medium
+105351109119.0,Forum Mahasiswa Kedokteran,professional,medical,11,True,Anggota,1,0.7,High
+105361100219.0,Tim Debat,special_interest,competition,16,True,Anggota,1,0.8,High
+105361100219.0,Tutor Sebaya,academic,education,5,True,Tutor,1,0.5,Low
+105361100219.0,Keluarga Mahasiswa Hindu,religious,spiritual,10,True,Koordinator,2,0.4,Low
+105361100219.0,Dharma Wacana Buddha,religious,spiritual,15,False,Anggota,1,0.4,Low
+105361107219.0,Asosiasi Mahasiswa Psikologi,professional,psychology,13,True,Anggota,1,0.6,Medium
+105361107219.0,UKM Olahraga,special_interest,sports,11,False,Anggota,1,0.4,Medium
+105381100120.0,Perhimpunan Mahasiswa Hukum,professional,law,17,True,Koordinator Kajian,2,0.5,Medium
+105381100120.0,Journal Club,academic,research,9,True,Presenter,2,0.4,Low
+105391100920.0,Kelompok Studi Penelitian,academic,research,5,True,Anggota,1,0.6,Medium
+105391100920.0,Perhimpunan Mahasiswa Hukum,professional,law,12,True,Koordinator Kajian,2,0.5,Medium
+105391100920.0,Jurnalistik,special_interest,media,4,False,Reporter,1,0.4,Medium
+105391101820.0,Forum Mahasiswa Kedokteran,professional,medical,16,True,Koordinator Riset,2,0.7,High
+105391101820.0,Asosiasi Mahasiswa Psikologi,professional,psychology,12,True,Koordinator Program,2,0.6,Medium
+105391101820.0,Perhimpunan Mahasiswa Hukum,professional,law,6,False,Anggota,1,0.5,Medium
+105391101820.0,ORMAWA Jurusan,student_government,governance,12,True,Anggota,1,0.6,Medium
+105391101920.0,Himpunan Mahasiswa Teknik,professional,engineering,13,False,Anggota,1,0.5,Medium
+105391101920.0,Ikatan Mahasiswa Akuntansi,professional,business,12,True,Anggota,1,0.4,Medium
+105391102020.0,Laboratorium Riset,academic,research,8,False,Asisten,1,0.7,High
+105401130019.0,Perhimpunan Mahasiswa Hukum,professional,law,2,False,Anggota,1,0.5,Medium
+105411100520.0,Tutor Sebaya,academic,education,6,False,Tutor,1,0.5,Low
+105411100520.0,Pendampingan Masyarakat,social_service,community,5,True,Pendamping,1,0.7,Medium
+105411100520.0,Donor Darah,social_service,health,13,True,Koordinator Event,2,0.2,Low
+105711104519.0,Forum Mahasiswa Kedokteran,professional,medical,12,False,Anggota,1,0.7,High
+105811106917.0,Tim Olimpiade,academic,competition,5,True,Anggota,1,0.8,High
+105811106917.0,Bakti Sosial Mahasiswa,social_service,community,11,False,Relawan,1,0.3,Low
+105811116917.0,Donor Darah,social_service,health,11,True,Koordinator Event,2,0.2,Low
+105811116917.0,ORMAWA Jurusan,student_government,governance,13,True,Anggota,1,0.6,Medium
+105811116917.0,Himpunan Mahasiswa Teknik,professional,engineering,7,True,Anggota,1,0.5,Medium
+105951102020.0,Tim Debat,special_interest,competition,10,True,Anggota,1,0.8,High
+105951102020.0,ORMAWA Jurusan,student_government,governance,5,True,Anggota,1,0.6,Medium
+105951102020.0,Himpunan Mahasiswa Teknik,professional,engineering,8,True,Anggota,1,0.5,Medium
+105951102920.0,Kelompok Studi Penelitian,academic,research,6,True,Anggota,1,0.6,Medium
+105961106721.0,Forum Mahasiswa Kedokteran,professional,medical,17,False,Anggota,1,0.7,High
+105961106721.0,Paduan Suara,special_interest,arts,10,True,Anggota,1,0.6,Medium
+105961106721.0,Robotika,special_interest,technology,15,False,Anggota,1,0.7,High
+105961106721.0,ORMAWA Jurusan,student_government,governance,7,True,Anggota,1,0.6,Medium
+105961111419.0,DPM Fakultas,student_government,governance,10,True,Wakil Ketua,2,0.7,Medium
+105961111419.0,ORMAWA Jurusan,student_government,governance,12,False,Anggota,1,0.6,Medium
+105961111419.0,Forum Mahasiswa Kedokteran,professional,medical,13,True,Anggota,1,0.7,High
+105961109820.0,Kelompok Studi Penelitian,academic,research,7,True,Anggota,1,0.6,Medium
+105961109820.0,Journal Club,academic,research,15,True,Anggota,1,0.4,Low
+105961109820.0,Jurnalistik,special_interest,media,12,False,Editor,2,0.4,Medium
+105961109820.0,Asosiasi Mahasiswa Psikologi,professional,psychology,17,True,Koordinator Program,2,0.6,Medium
+105831102320.0,DPM Fakultas,student_government,governance,13,True,Wakil Ketua,1,0.7,Medium
+105831102320.0,KKN Tematik,social_service,community,2,True,Peserta,1,0.5,Medium
+105831102320.0,Paduan Suara,special_interest,arts,13,True,Anggota,1,0.6,Medium
+105831102320.0,Senat Mahasiswa,student_government,governance,14,True,Wakil Ketua,2,0.9,High
+105731105120.0,Kelompok Studi Penelitian,academic,research,8,True,Anggota,1,0.6,Medium
+105731105120.0,Himpunan Mahasiswa Teknik,professional,engineering,6,False,Anggota,1,0.5,Medium
+105651108621.0,KKN Tematik,social_service,community,1,True,Peserta,1,0.5,Medium
+105941102121.0,Tim Debat,special_interest,competition,10,False,Anggota,1,0.8,High
+105941102121.0,Kelompok Studi Penelitian,academic,research,6,True,Anggota,1,0.6,Medium
+105641104123.0,Asosiasi Mahasiswa Psikologi,professional,psychology,13,True,Koordinator Program,2,0.6,Medium
+105641104123.0,Relawan Bencana,social_service,emergency,13,True,Koordinator Tim,2,0.6,High
+105641104123.0,Bakti Sosial Mahasiswa,social_service,community,11,True,Relawan,1,0.3,Low
+105641104123.0,Pendampingan Masyarakat,social_service,community,5,True,Pendamping,1,0.7,Medium
+105731116419.0,Asosiasi Mahasiswa Psikologi,professional,psychology,9,False,Anggota,1,0.6,Medium
+105731116419.0,Jurnalistik,special_interest,media,14,True,Reporter,1,0.4,Medium
+105721138822.0,Himpunan Mahasiswa Teknik,professional,engineering,7,True,Anggota,1,0.5,Medium
+105721138822.0,Bakti Sosial Mahasiswa,social_service,community,9,True,Relawan,1,0.3,Low
+105721138822.0,Dharma Wacana Buddha,religious,spiritual,15,False,Anggota,1,0.4,Low
+105731104521.0,Senat Mahasiswa,student_government,governance,12,True,Senator,1,0.9,High
+105731104521.0,BEM Fakultas,student_government,governance,15,True,Anggota,1,0.8,High
+105731104521.0,Forum Mahasiswa Kedokteran,professional,medical,12,True,Anggota,1,0.7,High
+105731104521.0,Relawan Bencana,social_service,emergency,16,False,Koordinator Tim,2,0.6,High
+105831102822.0,Ikatan Mahasiswa Akuntansi,professional,business,11,True,Anggota,1,0.4,Medium
+105831102822.0,Bakti Sosial Mahasiswa,social_service,community,14,True,Koordinator Kegiatan,2,0.3,Low
+105831102822.0,UKM Olahraga,special_interest,sports,17,True,Koordinator Cabang,2,0.4,Medium
+105831102822.0,Donor Darah,social_service,health,9,True,Donor,1,0.2,Low
+105831102822.0,Kelompok Studi Penelitian,academic,research,4,True,Anggota,1,0.6,Medium
+105831102822.0,Journal Club,academic,research,15,False,Presenter,2,0.4,Low
+105721116821.0,Kelompok Studi Penelitian,academic,research,7,True,Anggota,1,0.6,Medium
+105721113221.0,Laboratorium Riset,academic,research,11,True,Asisten,1,0.7,High
+105721113221.0,Paduan Suara,special_interest,arts,14,True,Anggota,1,0.6,Medium
+105721113221.0,Pendampingan Masyarakat,social_service,community,5,True,Pendamping,1,0.7,Medium
+105721113221.0,Tim Olimpiade,academic,competition,3,False,Anggota,1,0.8,High
+105961101922.0,DPM Fakultas,student_government,governance,15,True,Anggota,1,0.7,Medium
+105961101922.0,Keluarga Mahasiswa Hindu,religious,spiritual,15,True,Anggota,1,0.4,Low
+105841106522.0,ORMAWA Jurusan,student_government,governance,11,False,Koordinator,2,0.6,Medium
+105841106522.0,Paduan Suara,special_interest,arts,7,True,Anggota,1,0.6,Medium
+105841116522.0,Tim Olimpiade,academic,competition,5,True,Anggota,1,0.8,High
+105841116522.0,Forum Mahasiswa Kedokteran,professional,medical,13,True,Anggota,1,0.7,High
+105941100322.0,ORMAWA Jurusan,student_government,governance,13,True,Koordinator,2,0.6,Medium
+105941100322.0,Persekutuan Doa Kristen,religious,spiritual,16,True,Anggota,1,0.3,Medium
+105941100322.0,Asosiasi Mahasiswa Psikologi,professional,psychology,9,True,Anggota,1,0.6,Medium
+105421105620.0,Senat Mahasiswa,student_government,governance,11,True,Senator,1,0.9,High
+105421105620.0,ORMAWA Jurusan,student_government,governance,11,False,Anggota,1,0.6,Medium
+105421105620.0,Tim Olimpiade,academic,competition,3,False,Anggota,1,0.8,High
+105421105620.0,Kerohanian Islam,religious,spiritual,17,True,Anggota,1,0.3,Medium
+105651104923.0,Kelompok Studi Penelitian,academic,research,7,True,Anggota,1,0.6,Medium
+105651104923.0,Forum Mahasiswa Kedokteran,professional,medical,16,False,Koordinator Riset,2,0.7,High
+105651104923.0,Robotika,special_interest,technology,15,True,Team Leader,2,0.7,High
+105841109622.0,Tutor Sebaya,academic,education,6,True,Tutor,1,0.5,Low
+105841109622.0,Relawan Bencana,social_service,emergency,1,True,Relawan,1,0.6,High
+105841109622.0,Tim Olimpiade,academic,competition,3,True,Anggota,1,0.8,High
+105841109622.0,Senat Mahasiswa,student_government,governance,12,False,Senator,1,0.9,High
+105841116322.0,Senat Mahasiswa,student_government,governance,8,True,Senator,1,0.9,High
+105841116322.0,Tutor Sebaya,academic,education,5,True,Tutor,1,0.5,Low
+105421103922.0,Keluarga Mahasiswa Hindu,religious,spiritual,11,False,Koordinator,2,0.4,Low
+105311101723.0,DPM Fakultas,student_government,governance,12,True,Anggota,1,0.7,Medium
+105311101723.0,Fotografi,special_interest,arts,9,True,Anggota,1,0.3,Low
+105311101723.0,ORMAWA Jurusan,student_government,governance,19,True,Koordinator,2,0.6,Medium
+105311101723.0,UKM Olahraga,special_interest,sports,13,True,Koordinator Cabang,2,0.4,Medium
+105721110023.0,ORMAWA Jurusan,student_government,governance,14,False,Anggota,1,0.6,Medium
+105721110023.0,Kerohanian Islam,religious,spiritual,8,True,Anggota,1,0.3,Medium
+105721110023.0,KKN Tematik,social_service,community,1,False,Peserta,1,0.5,Medium
+105721110023.0,BEM Fakultas,student_government,governance,12,True,Anggota,1,0.8,High
+105721110023.0,Keluarga Mahasiswa Hindu,religious,spiritual,13,True,Koordinator,2,0.4,Low
+105651102723.0,Senat Mahasiswa,student_government,governance,12,True,Senator,1,0.9,High
+105651102723.0,Donor Darah,social_service,health,8,True,Donor,1,0.2,Low
+105651102723.0,BEM Fakultas,student_government,governance,14,True,Anggota,1,0.8,High
+105651102723.0,Journal Club,academic,research,8,True,Presenter,2,0.4,Low
+105651102822.0,Ikatan Mahasiswa Akuntansi,professional,business,10,False,Anggota,1,0.4,Medium
+105651102822.0,Kerohanian Islam,religious,spiritual,7,True,Anggota,1,0.3,Medium
+105741100322.0,Tutor Sebaya,academic,education,8,True,Koordinator,2,0.5,Low
+105841100322.0,Tutor Sebaya,academic,education,4,True,Tutor,1,0.5,Low
+105841100322.0,Senat Mahasiswa,student_government,governance,12,True,Wakil Ketua,2,0.9,High
+105751100921.0,Tim Olimpiade,academic,competition,4,False,Anggota,1,0.8,High
+105751100921.0,Journal Club,academic,research,12,False,Anggota,1,0.4,Low
+105751100921.0,Relawan Bencana,social_service,emergency,12,False,Relawan,1,0.6,High
+105451102121.0,Tim Olimpiade,academic,competition,3,False,Anggota,1,0.8,High
+105451102121.0,Teater,special_interest,arts,4,True,Pemain,1,0.5,Medium
+105391100922.0,DPM Fakultas,student_government,governance,11,True,Anggota,1,0.7,Medium
+105391100922.0,Tim Olimpiade,academic,competition,1,True,Anggota,1,0.8,High
+105381101422.0,Laboratorium Riset,academic,research,5,False,Asisten,1,0.7,High
+105381101422.0,Robotika,special_interest,technology,7,False,Anggota,1,0.7,High
+105411100620.0,Relawan Bencana,social_service,emergency,12,False,Relawan,1,0.6,High
+105411100620.0,Donor Darah,social_service,health,16,True,Donor,1,0.2,Low
+105251102122.0,Perhimpunan Mahasiswa Hukum,professional,law,13,True,Anggota,1,0.5,Medium
+105251102122.0,Senat Mahasiswa,student_government,governance,13,True,Wakil Ketua,2,0.9,High
+105251102122.0,Forum Mahasiswa Kedokteran,professional,medical,10,False,Anggota,1,0.7,High
+105251102122.0,Kelompok Studi Penelitian,academic,research,4,True,Anggota,1,0.6,Medium
+105251103722.0,Asosiasi Mahasiswa Psikologi,professional,psychology,12,True,Anggota,1,0.6,Medium
+105401111321.0,DPM Fakultas,student_government,governance,9,True,Wakil Ketua,2,0.7,Medium
+105401111321.0,Journal Club,academic,research,6,True,Anggota,1,0.4,Low
+105351104321.0,Relawan Bencana,social_service,emergency,14,False,Koordinator Tim,2,0.6,High
+105351104321.0,DPM Fakultas,student_government,governance,12,False,Wakil Ketua,2,0.7,Medium
+105351104321.0,Kelompok Studi Penelitian,academic,research,5,False,Anggota,1,0.6,Medium
+105361102122.0,Asosiasi Mahasiswa Psikologi,professional,psychology,11,False,Anggota,1,0.6,Medium
+105361102122.0,Keluarga Mahasiswa Hindu,religious,spiritual,9,True,Anggota,1,0.4,Low
+105111106522.0,ORMAWA Jurusan,student_government,governance,10,True,Anggota,1,0.6,Medium
+105111106522.0,Dharma Wacana Buddha,religious,spiritual,14,False,Anggota,1,0.4,Low
+105191111522.0,DPM Fakultas,student_government,governance,11,False,Wakil Ketua,2,0.7,Medium
+105191111522.0,ORMAWA Jurusan,student_government,governance,16,True,Anggota,1,0.6,Medium
+105131108822.0,Tim Olimpiade,academic,competition,3,True,Anggota,1,0.8,High
+105131108822.0,UKM Olahraga,special_interest,sports,17,True,Anggota,1,0.4,Medium
+105741103621.0,Robotika,special_interest,technology,9,True,Anggota,1,0.7,High
+105741103621.0,Ikatan Mahasiswa Akuntansi,professional,business,14,True,Ketua,3,0.4,Medium
+105241100821.0,Forum Mahasiswa Kedokteran,professional,medical,9,False,Anggota,1,0.7,High
+105241100821.0,ORMAWA Jurusan,student_government,governance,11,True,Koordinator,2,0.6,Medium
+105241100821.0,Paduan Suara,special_interest,arts,15,True,Section Leader,2,0.6,Medium
+105241100821.0,UKM Olahraga,special_interest,sports,11,True,Anggota,1,0.4,Medium
+105241100821.0,Bakti Sosial Mahasiswa,social_service,community,8,False,Relawan,1,0.3,Low
+105241100821.0,Ikatan Mahasiswa Akuntansi,professional,business,16,True,Wakil Ketua,2,0.4,Medium
+105241109222.0,Forum Mahasiswa Kedokteran,professional,medical,15,True,Anggota,1,0.7,High
+105241109222.0,Tutor Sebaya,academic,education,7,True,Tutor,1,0.5,Low
+105251105619.0,Tutor Sebaya,academic,education,6,False,Tutor,1,0.5,Low
+105251105619.0,ORMAWA Jurusan,student_government,governance,10,True,Anggota,1,0.6,Medium
+105361100721.0,BEM Fakultas,student_government,governance,13,False,Staff Ahli,2,0.8,High
+105361100721.0,UKM Olahraga,special_interest,sports,10,False,Koordinator Cabang,2,0.4,Medium
+105711102220.0,Kelompok Studi Penelitian,academic,research,3,False,Anggota,1,0.6,Medium
+105711102220.0,Senat Mahasiswa,student_government,governance,10,True,Senator,1,0.9,High
+105711102220.0,Teater,special_interest,arts,6,False,Asisten Sutradara,2,0.5,Medium
+105711102220.0,Tim Olimpiade,academic,competition,6,True,Anggota,1,0.8,High
+105251101922.0,Ikatan Mahasiswa Akuntansi,professional,business,11,False,Anggota,1,0.4,Medium
+105251101922.0,Dharma Wacana Buddha,religious,spiritual,12,True,Koordinator,2,0.4,Low
+105251101922.0,Bakti Sosial Mahasiswa,social_service,community,10,False,Relawan,1,0.3,Low
+105361100522.0,Laboratorium Riset,academic,research,12,True,Asisten,1,0.7,High
+105351105221.0,Forum Mahasiswa Kedokteran,professional,medical,12,False,Anggota,1,0.7,High
+105351105221.0,BEM Fakultas,student_government,governance,9,True,Anggota,1,0.8,High
+105251106621.0,Journal Club,academic,research,10,True,Anggota,1,0.4,Low
+105251106621.0,Senat Mahasiswa,student_government,governance,11,True,Senator,1,0.9,High
+105251106621.0,Forum Mahasiswa Kedokteran,professional,medical,6,False,Anggota,1,0.7,High
+105251106621.0,Donor Darah,social_service,health,7,True,Koordinator Event,2,0.2,Low
+105251106621.0,Kerohanian Islam,religious,spiritual,11,False,Koordinator Divisi,2,0.3,Medium
+105251106621.0,Ikatan Mahasiswa Akuntansi,professional,business,8,False,Anggota,1,0.4,Medium
+105271104620.0,Laboratorium Riset,academic,research,12,True,Kepala Lab,3,0.7,High
+105461254023.0,Kelompok Studi Penelitian,academic,research,6,True,Asisten Peneliti,2,0.6,Medium
+105461217123.0,Journal Club,academic,research,19,True,Presenter,2,0.4,Low
+105461217123.0,Fotografi,special_interest,arts,13,True,Koordinator Event,2,0.3,Low
+105461262323.0,Relawan Bencana,social_service,emergency,10,True,Relawan,1,0.6,High
+105461262323.0,Robotika,special_interest,technology,14,False,Anggota,1,0.7,High
+105461262323.0,Jurnalistik,special_interest,media,13,True,Reporter,1,0.4,Medium
+105461262323.0,Tutor Sebaya,academic,education,6,True,Tutor,1,0.5,Low
+105461213423.0,Tutor Sebaya,academic,education,7,False,Tutor,1,0.5,Low

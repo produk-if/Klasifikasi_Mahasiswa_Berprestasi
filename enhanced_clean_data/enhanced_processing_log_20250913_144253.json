@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-09-13T14:42:53.838056",
+  "processing_log": [
+    {
+      "timestamp": "2025-09-13T14:42:52.718356",
+      "stats": {
+        "original_mahasiswa": 112,
+        "original_prestasi": 242,
+        "original_organizational": 211,
+        "cleaned_mahasiswa": 112,
+        "cleaned_prestasi": 242,
+        "cleaned_organizational": 211,
+        "removed_records": 0
+      },
+      "data_preservation_rate": {
+        "mahasiswa": 100.0,
+        "prestasi": 100.0,
+        "organizational": 100.0
+      }
+    }
+  ],
+  "uuid_nim_mapping_sample": {
+    "88ee1e06-bcfd-4dd6-bf0d-f43d0c650cfd": "105651103921",
+    "fd8a7517-99b2-4c29-a0a2-94856c0aa418": "105951102020",
+    "54ab0aeb-01df-4978-a1f7-6f4afebbd658": "105851101121",
+    "38abd672-2706-465b-b002-b4357db1d03c": "105651104320",
+    "893d01fe-f9c6-406a-997a-53616d848b06": "105191101420",
+    "d49b6e2d-4f6d-47f1-a223-9f93f55a153a": "105611106021",
+    "4d2d8825-aadc-4b0a-a041-e573a0234570": "105731124818",
+    "5920ea9b-1d1b-49d7-a9c8-419e444f487a": "105311101723",
+    "90bcaf97-92ef-41fe-8322-9551741f3dac": "105831102320",
+    "1c0a6b54-95f7-4254-830a-42890f4b259b": "105451102121"
+  },
+  "feature_summary": {
+    "total_students": 112,
+    "total_features": 42,
+    "berprestasi_count": 

@@ -1,0 +1,23 @@
+{
+  "generation_timestamp": "20250913_150343",
+  "total_students": 112,
+  "total_involvements": 261,
+  "organization_types": [
+    "student_government",
+    "academic",
+    "religious",
+    "social_service",
+    "special_interest",
+    "professional"
+  ],
+  "total_organizations": 30,
+  "involvement_distribution": {
+    "none": 7,
+    "low": 61,
+    "moderate": 37,
+    "high": 7
+  },
+  "leadership_statistics": {
+    "students_with_leadership": 53,
+    "average_leadership_duration": 39.723214285714285,
+    "max_organizations_per_student": 

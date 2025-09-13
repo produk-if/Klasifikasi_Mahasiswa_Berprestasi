@@ -1,16 +1,16 @@
 {
   "total_mahasiswa": 50,
-  "total_prestasi": 85,
+  "total_prestasi": 100,
   "mahasiswa_berprestasi": 30,
   "prestasi_by_tingkat": {
-    "lokal": 24,
-    "nasional": 22,
-    "regional": 21,
-    "internasional": 18
+    "regional": 27,
+    "nasional": 26,
+    "lokal": 26,
+    "internasional": 21
   },
   "prestasi_by_kategori": {
-    "non_akademik": 45,
-    "akademik": 40
+    "akademik": 56,
+    "non_akademik": 44
   },
-  "created_at": "2025-08-27T13:57:51.457182"
+  "created_at": "2025-09-13T14:27:13.182114"
 }

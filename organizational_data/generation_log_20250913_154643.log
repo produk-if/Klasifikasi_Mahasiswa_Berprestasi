@@ -1,0 +1,32 @@
+2025-09-13 15:46:43,866 - OrganizationalDataGenerator - INFO - Initialized 30 organizations across 6 categories
+2025-09-13 15:46:43,871 - MainPipeline - WARNING - Organizational data generation failed: 'IndonesianOrganizationalDataGenerator' object has no attribute 'generate_organizational_data'
+2025-09-13 15:46:43,872 - MainPipeline - INFO - Continuing with academic features only
+2025-09-13 15:46:43,909 - MainPipeline - INFO - Feature engineering completed: 100 total features
+2025-09-13 15:46:43,911 - MainPipeline - INFO - Stage 4: Model Training and Optimization
+2025-09-13 15:46:43,925 - MainPipeline - ERROR - Pipeline failed: 'berprestasi'
+2025-09-13 15:46:44,078 - MainPipeline - ERROR - Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'berprestasi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\main_pipeline.py", line 743, in run_complete_pipeline
+    trained_models = self._train_and_optimize_models(engineered_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\main_pipeline.py", line 915, in _train_and_optimize_models
+    y = df['berprestasi'].values
+        ~~^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'berprestasi'
+

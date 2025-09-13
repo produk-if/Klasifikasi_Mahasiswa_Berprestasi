@@ -1,0 +1,156 @@
+nim,organization_name,organization_type,role,is_leadership,start_year,duration_semesters,activity_level
+105131100519,Basket Club,sports,Koordinator,True,2021,4,active
+105131100519,Himpunan Mahasiswa Prodi,academic,Anggota,False,2020,6,active
+105131100519,Tim Bakti Sosial,social,Bendahara,True,2020,2,active
+105131100519,PMI,volunteer,Sekretaris,True,2020,7,active
+105191115719,Karang Taruna,social,Anggota,False,2019,5,active
+105421100320,Paduan Suara,arts,Ketua,True,2021,4,very_active
+105421104519,Unit Kegiatan Mahasiswa,academic,Anggota,False,2020,6,very_active
+105421104519,Programming Community,technology,Bendahara,True,2020,1,active
+105611105520,IT Club,technology,Anggota,False,2020,1,moderately_active
+105611109820,Karang Taruna,social,Anggota,False,2022,2,very_active
+105641103820,Basket Club,sports,Anggota,False,2022,5,very_active
+105651103921,Teater Kampus,arts,Anggota,False,2023,3,moderately_active
+105651103921,Karang Taruna,social,Anggota,False,2022,8,active
+105651103921,Basket Club,sports,Anggota,False,2021,3,active
+105651104320,Kerohanian Islam,religious,Bendahara,True,2021,4,moderately_active
+105651109921,Komunitas Peduli Sosial,social,Koordinator,True,2023,1,active
+105721102119,Tim Futsal,sports,Ketua,True,2019,4,active
+105721102119,Robotika,technology,Anggota,False,2021,6,active
+105721121819,Teater Kampus,arts,Ketua,True,2021,1,very_active
+105721124321,Relawan Bencana,social,Anggota,False,2022,5,very_active
+105721124321,ORMAWA,academic,Anggota,False,2021,8,active
+105721128920,ORMAWA,academic,Anggota,False,2022,4,active
+105721128920,Karang Taruna,social,Anggota,False,2021,7,moderately_active
+105721144418,Unit Kegiatan Mahasiswa,academic,Anggota,False,2018,1,active
+105721144418,Tari Tradisional,arts,Anggota,False,2018,5,moderately_active
+105731105220,BEM Fakultas,academic,Anggota,False,2020,3,active
+105731122419,Tari Tradisional,arts,Anggota,False,2020,2,active
+105741102820,Karang Taruna,social,Anggota,False,2022,8,active
+105831104618,ORMAWA,academic,Anggota,False,2019,5,very_active
+105841106719,BEM Fakultas,academic,Bendahara,True,2020,4,moderately_active
+105841106719,Karang Taruna,social,Anggota,False,2019,4,moderately_active
+105841106719,IT Club,technology,Anggota,False,2021,5,moderately_active
+105261111622,Teater Kampus,arts,Anggota,False,2024,2,very_active
+105331100420,BEM Fakultas,academic,Anggota,False,2022,1,very_active
+105331100420,Paduan Suara,arts,Wakil Ketua,True,2021,3,moderately_active
+105351109119,Pramuka,volunteer,Anggota,False,2021,7,active
+105351109119,Persekutuan Kristen,religious,Anggota,False,2020,7,active
+105361100219,Persekutuan Kristen,religious,Anggota,False,2021,6,active
+105361100219,Unit Olahraga,sports,Anggota,False,2019,4,active
+105361100219,Himpunan Mahasiswa Prodi,academic,Bendahara,True,2021,6,very_active
+105361100219,Tari Tradisional,arts,Anggota,False,2020,5,very_active
+105361107219,BEM Fakultas,academic,Ketua,True,2019,4,active
+105361107219,Teater Kampus,arts,Wakil Ketua,True,2020,8,active
+105361107219,IT Club,technology,Anggota,False,2019,5,moderately_active
+105391100920,Teater Kampus,arts,Bendahara,True,2022,5,active
+105391100920,Himpunan Mahasiswa Prodi,academic,Anggota,False,2021,5,very_active
+105391101920,Persekutuan Kristen,religious,Wakil Ketua,True,2022,2,very_active
+105391101920,Unit Olahraga,sports,Anggota,False,2022,5,moderately_active
+105401130019,IT Club,technology,Anggota,False,2021,5,moderately_active
+105401130019,Tari Tradisional,arts,Anggota,False,2019,4,active
+105401130019,ORMAWA,academic,Anggota,False,2021,5,very_active
+105411100520,ORMAWA,academic,Bendahara,True,2020,2,active
+105411100520,Dharma Wacana,religious,Anggota,False,2020,4,moderately_active
+105711104519,Basket Club,sports,Anggota,False,2020,7,very_active
+105811106917,Unit Kesenian,arts,Anggota,False,2017,8,active
+105811106917,Basket Club,sports,Bendahara,True,2017,4,moderately_active
+105811116917,BEM Fakultas,academic,Bendahara,True,2019,1,active
+105961106721,Unit Kesenian,arts,Anggota,False,2023,2,active
+105961106721,Tim Futsal,sports,Anggota,False,2021,1,moderately_active
+105961106721,Persekutuan Kristen,religious,Anggota,False,2021,2,moderately_active
+105961109820,Basket Club,sports,Anggota,False,2021,4,very_active
+105831102320,Tim Futsal,sports,Anggota,False,2021,5,active
+105731105120,Tim Futsal,sports,Anggota,False,2020,4,active
+105651108621,KKN,volunteer,Anggota,False,2021,6,moderately_active
+105651108621,Kerohanian Islam,religious,Sekretaris,True,2021,4,very_active
+105941102121,Kegiatan Keagamaan,religious,Anggota,False,2022,3,moderately_active
+105941102121,Tech Startup,technology,Anggota,False,2021,8,active
+105941101621,Tari Tradisional,arts,Anggota,False,2023,6,very_active
+105941101621,Kerohanian Islam,religious,Anggota,False,2021,5,active
+105641104123,Robotika,technology,Anggota,False,2023,5,active
+105641104123,PMI,volunteer,Anggota,False,2025,2,active
+105641104123,Unit Olahraga,sports,Anggota,False,2024,1,moderately_active
+105731116419,Badminton Club,sports,Anggota,False,2019,7,moderately_active
+105651106421,Pramuka,volunteer,Ketua,True,2021,3,very_active
+105651106421,Tim Futsal,sports,Anggota,False,2022,8,active
+105651106421,Unit Kegiatan Mahasiswa,academic,Wakil Ketua,True,2022,2,very_active
+105721138822,Kerohanian Islam,religious,Anggota,False,2024,7,active
+105721138822,BEM Fakultas,academic,Anggota,False,2024,2,active
+105721138822,Pramuka,volunteer,Anggota,False,2023,2,very_active
+105731104521,Volunteer Community,volunteer,Anggota,False,2023,6,very_active
+105731104521,Unit Kesenian,arts,Anggota,False,2022,4,moderately_active
+105831102822,Dharma Wacana,religious,Anggota,False,2024,3,very_active
+105721116821,Tim Bakti Sosial,social,Anggota,False,2022,5,very_active
+105721116821,KKN,volunteer,Koordinator,True,2022,2,active
+105721113221,Persekutuan Kristen,religious,Anggota,False,2021,3,active
+105961101922,Unit Olahraga,sports,Sekretaris,True,2024,5,very_active
+105961101922,Volunteer Community,volunteer,Anggota,False,2024,2,very_active
+105841116522,Tim Futsal,sports,Anggota,False,2024,3,active
+105421105620,Unit Olahraga,sports,Anggota,False,2021,4,very_active
+105421105620,Kerohanian Islam,religious,Anggota,False,2022,4,very_active
+105241101923,Tech Startup,technology,Anggota,False,2025,2,active
+105241101923,Unit Kesenian,arts,Anggota,False,2023,1,active
+105641106822,ORMAWA,academic,Ketua,True,2024,7,very_active
+105651104923,ORMAWA,academic,Anggota,False,2024,1,active
+105651104923,Paduan Suara,arts,Anggota,False,2025,2,very_active
+105651104923,Persekutuan Kristen,religious,Bendahara,True,2024,5,moderately_active
+105651104923,Badminton Club,sports,Anggota,False,2023,1,very_active
+105421103922,Komunitas Peduli Sosial,social,Anggota,False,2022,2,active
+105421103922,Unit Kegiatan Mahasiswa,academic,Wakil Ketua,True,2022,4,active
+105311101723,Unit Olahraga,sports,Anggota,False,2024,4,active
+105651102822,Karang Taruna,social,Sekretaris,True,2022,5,moderately_active
+105501108822,Kegiatan Keagamaan,religious,Anggota,False,2023,8,moderately_active
+105501108822,PMI,volunteer,Anggota,False,2024,7,very_active
+105741100322,Programming Community,technology,Anggota,False,2024,3,very_active
+105741100322,Himpunan Mahasiswa Prodi,academic,Koordinator,True,2023,1,moderately_active
+105741100322,Kegiatan Keagamaan,religious,Anggota,False,2022,1,very_active
+105751100921,Tim Futsal,sports,Anggota,False,2023,7,moderately_active
+105451102121,Basket Club,sports,Anggota,False,2022,3,active
+105391100922,Himpunan Mahasiswa Prodi,academic,Anggota,False,2023,6,very_active
+105381101422,Kerohanian Islam,religious,Anggota,False,2022,2,very_active
+105381101422,Komunitas Peduli Sosial,social,Sekretaris,True,2023,5,moderately_active
+105381101422,Himpunan Mahasiswa Prodi,academic,Anggota,False,2023,1,active
+105411100620,Basket Club,sports,Anggota,False,2022,5,active
+105251102122,PMI,volunteer,Anggota,False,2023,6,active
+105251102122,Programming Community,technology,Anggota,False,2024,1,active
+105251102122,Basket Club,sports,Ketua,True,2023,7,active
+105251103722,PMI,volunteer,Bendahara,True,2022,1,very_active
+105251103722,Himpunan Mahasiswa Prodi,academic,Koordinator,True,2022,8,active
+105251103722,Tari Tradisional,arts,Sekretaris,True,2024,3,active
+105401111321,KKN,volunteer,Anggota,False,2022,2,active
+105401111321,Tim Futsal,sports,Anggota,False,2023,3,active
+105351104321,Unit Kegiatan Mahasiswa,academic,Anggota,False,2022,7,moderately_active
+105361102122,Programming Community,technology,Anggota,False,2022,3,very_active
+105361102122,Unit Kegiatan Mahasiswa,academic,Sekretaris,True,2022,8,active
+105111106522,Tech Startup,technology,Bendahara,True,2023,5,moderately_active
+105191111522,Pramuka,volunteer,Anggota,False,2023,1,moderately_active
+105131108822,Programming Community,technology,Anggota,False,2023,1,active
+105131108822,Pramuka,volunteer,Anggota,False,2022,2,active
+105131108822,Kerohanian Islam,religious,Sekretaris,True,2023,6,very_active
+105131108822,Unit Kesenian,arts,Anggota,False,2024,5,moderately_active
+105741103621,Teater Kampus,arts,Anggota,False,2021,7,active
+105741103621,Kerohanian Islam,religious,Sekretaris,True,2022,8,very_active
+105741103621,Unit Olahraga,sports,Anggota,False,2021,2,moderately_active
+105241100821,Paduan Suara,arts,Sekretaris,True,2021,2,active
+105241100821,Unit Kegiatan Mahasiswa,academic,Anggota,False,2021,4,very_active
+105241100821,Kegiatan Keagamaan,religious,Anggota,False,2023,2,very_active
+105361100721,Komunitas Peduli Sosial,social,Anggota,False,2022,3,very_active
+105711102220,Tim Futsal,sports,Anggota,False,2022,3,active
+105251101922,Paduan Suara,arts,Anggota,False,2022,5,moderately_active
+105251101922,KKN,volunteer,Anggota,False,2023,4,moderately_active
+105251101922,ORMAWA,academic,Anggota,False,2022,5,very_active
+105251101922,Persekutuan Kristen,religious,Anggota,False,2022,8,moderately_active
+105361100522,KKN,volunteer,Anggota,False,2022,2,active
+105361100522,Basket Club,sports,Koordinator,True,2022,7,active
+105351105221,ORMAWA,academic,Anggota,False,2022,1,very_active
+105351105221,Programming Community,technology,Anggota,False,2022,5,moderately_active
+105251106621,Kerohanian Islam,religious,Anggota,False,2021,1,very_active
+105251106621,Komunitas Peduli Sosial,social,Anggota,False,2022,3,moderately_active
+105271104620,BEM Fakultas,academic,Anggota,False,2021,5,active
+105461254023,Basket Club,sports,Anggota,False,2024,1,active
+105461254023,Kerohanian Islam,religious,Anggota,False,2024,6,active
+105461254023,Robotika,technology,Anggota,False,2023,8,moderately_active
+105461217123,Unit Kesenian,arts,Bendahara,True,2025,6,moderately_active
+105461213423,Komunitas Peduli Sosial,social,Anggota,False,2024,5,active
+105461213423,Teater Kampus,arts,Anggota,False,2023,1,moderately_active

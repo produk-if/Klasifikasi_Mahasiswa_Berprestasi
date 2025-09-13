@@ -1,0 +1,53 @@
+{
+  "processing_timestamp": "20250913_143222",
+  "data_sources": {
+    "academic_records": 112,
+    "achievement_records": 242,
+    "organizational_records": 155
+  },
+  "feature_summary": {
+    "total_students": 112,
+    "berprestasi_count": 49,
+    "berprestasi_percentage": 43.75,
+    "high_performer_count": 0,
+    "average_composite_score": 0.4551448450222546
+  },
+  "feature_weights": {
+    "academic": 0.4,
+    "achievement": 0.35,
+    "organizational": 0.25
+  },
+  "files_exported": [
+    "clean_data\\mahasiswa_clean_20250913_143222.csv",
+    "clean_data\\prestasi_clean_20250913_143222.csv",
+    "clean_data\\organizational_clean_20250913_143222.csv",
+    "clean_data\\combined_features_20250913_143222.csv"
+  ],
+  "processing_log": [
+    {
+      "timestamp": "2025-09-13T14:32:22.851474",
+      "action": "data_loading",
+      "details": {
+        "mahasiswa_count": 112,
+        "prestasi_count": 242,
+        "organizational_count": 155,
+        "timestamp": "2025-09-13T14:32:22.851474"
+      }
+    },
+    {
+      "timestamp": "2025-09-13T14:32:22.907627",
+      "action": "data_cleaning",
+      "details": {
+        "cleaning_stats": {
+          "original_mahasiswa": 112,
+          "original_prestasi": 242,
+          "original_organizational": 155,
+          "cleaned_mahasiswa": 112,
+          "cleaned_prestasi": 242,
+          "cleaned_organizational": 155
+        },
+        "timestamp": "2025-09-13T14:32:22.907627"
+      }
+    }
+  ]
+}

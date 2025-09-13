@@ -1,0 +1,131 @@
+id,judul,tingkat,kategori,tanggal,id_mahasiswa,nim,nama,dibuat_pada,jenis_prestasi,posisi
+9679fdf3-2abf-41c8-995f-cf0ad9d79ba5,Sports Championship,regional,non_akademik,09/12/2023,4caeecd7-d5cb-45ca-b03b-2c8ed389c3ef,105391101920,RIRI KURNIAWAN,13/09/2025 14:34:26,individu,Juara 3
+144b82b1-afdc-4915-a4fa-b7fe03690e2c,Entrepreneurship Competition,regional,non_akademik,21/10/2023,1775c4cc-3114-4dd2-b836-5a69356b4a54,105961101922,ISNATANG,13/09/2025 14:34:26,individu,Finalis
+4db0dab1-ac8d-4878-bbfa-8f470bf5c76f,Leadership Award,lokal,non_akademik,02/01/2023,48f7e472-dd2c-44e9-b816-544e2a380ed5,105311101620,Khairil Irwan,13/09/2025 14:34:26,individu,Juara 1
+d9319a2a-b368-4717-9222-15216e9412c5,Arts Competition,lokal,non_akademik,17/06/2025,d0e5a156-256c-4bb1-bc9c-d10eceb2a256,105951102020,MUH. FAUZI ISRADI ZUHRI,13/09/2025 14:34:26,individu,Juara 2
+cfaaafd7-aee8-4646-9c12-a08899da9a59,Design Competition,lokal,non_akademik,14/12/2024,927aba33-bc7c-416d-92f6-f940a7841d3e,105401130019,JOHAN IBRAHIM,13/09/2025 14:34:26,individu,Juara 3
+8280439e-3eb0-48c4-98e7-7cef7e267255,Entrepreneurship Competition,regional,non_akademik,14/11/2024,2d90bcb3-9ed1-488c-823f-cc4cc2302c14,105421105620,ANDI RATU PANCA INDRIANI,13/09/2025 14:34:26,individu,Peserta Terbaik
+2f24ffe3-3223-42b9-9eb3-e134d65ade74,Arts Competition,lokal,non_akademik,01/03/2023,5f26c669-91c3-470d-b2ff-83fa65e283cf,105731124818,IRVANDI,13/09/2025 14:34:26,individu,Finalis
+06fc07cd-2e45-40dc-a94b-ef226b6b745d,Community Service Award,regional,non_akademik,01/07/2023,5f26c669-91c3-470d-b2ff-83fa65e283cf,105731124818,IRVANDI,13/09/2025 14:34:26,individu,Juara 1
+888f89ca-dbc9-41d1-a937-dbcab6edcd84,Innovation Challenge,lokal,non_akademik,23/07/2024,5f26c669-91c3-470d-b2ff-83fa65e283cf,105731124818,IRVANDI,13/09/2025 14:34:26,individu,Juara 2
+df4c2dd3-2371-4cd6-87a9-85011ecefe19,Cultural Performance,regional,non_akademik,25/04/2024,5f26c669-91c3-470d-b2ff-83fa65e283cf,105731124818,IRVANDI,13/09/2025 14:34:26,individu,Peserta Terbaik
+7bb7f7e8-bbd6-4db5-b969-e54e34170edd,Innovation Challenge,regional,non_akademik,22/05/2023,4c3fc8d4-8f92-4219-9a1e-0b3862fdf8bf,105611110319,DEWI ANDINI,13/09/2025 14:34:26,individu,Juara 2
+c494cf15-99c7-4e9e-b831-7b9d44797ed1,Arts Competition,internasional,non_akademik,21/08/2023,4c3fc8d4-8f92-4219-9a1e-0b3862fdf8bf,105611110319,DEWI ANDINI,13/09/2025 14:34:26,individu,Juara 2
+bd84a76e-9824-4f0e-b543-9710a75684fa,Academic Writing Contest,regional,akademik,10/01/2025,4c3fc8d4-8f92-4219-9a1e-0b3862fdf8bf,105611110319,DEWI ANDINI,13/09/2025 14:34:26,individu,Juara 2
+dac520fc-3e93-42ad-b234-808a9390817b,Lomba Karya Tulis Ilmiah,lokal,akademik,12/03/2024,e3a619de-a31e-4a69-a738-c30f9ebca4d7,105611109820,FATIMAH AZZAHRA ,13/09/2025 14:34:26,individu,Finalis
+07c930c3-d0b4-4750-8c0d-b9d9176cb964,Conference Presentation,lokal,akademik,03/04/2024,e3a619de-a31e-4a69-a738-c30f9ebca4d7,105611109820,FATIMAH AZZAHRA ,13/09/2025 14:34:26,individu,Finalis
+5a6174d3-39b3-4392-918b-2b8f45b1b95e,Entrepreneurship Competition,nasional,non_akademik,05/07/2025,f0341633-f72d-4584-b46f-84e49755a953,105711104519,IIN FEBRIYANTI,13/09/2025 14:34:26,individu,Peserta Terbaik
+184c9f7b-7c5d-4e2a-a631-b02409ebde9b,Hackathon,lokal,non_akademik,30/03/2024,f0341633-f72d-4584-b46f-84e49755a953,105711104519,IIN FEBRIYANTI,13/09/2025 14:34:26,individu,Juara 2
+be546908-1b59-4e7a-b97b-d0a37027e424,Research Paper Competition,regional,akademik,20/08/2023,f0341633-f72d-4584-b46f-84e49755a953,105711104519,IIN FEBRIYANTI,13/09/2025 14:34:26,individu,Peserta Terbaik
+fd927976-9190-4280-a41d-b05188564342,Research Paper Competition,nasional,akademik,09/01/2025,2f32cc27-d4e4-4447-afe4-6d81c39b2834,105841109622,FAUZAN AZHARI RAHMAN,13/09/2025 14:34:26,individu,Juara 2
+d8ea1118-362e-4517-8966-57dfcb8b7eea,Academic Excellence Award,regional,akademik,10/04/2023,2f32cc27-d4e4-4447-afe4-6d81c39b2834,105841109622,FAUZAN AZHARI RAHMAN,13/09/2025 14:34:26,individu,Juara 1
+541ba625-66c5-4088-b30b-5d5d1693459b,Journal Publication,regional,akademik,11/05/2025,b9683105-bb11-47ad-8034-a6d9b9107d02,105941102121,NUR YUSUF,13/09/2025 14:34:26,individu,Finalis
+f868794d-507b-4beb-b560-1fd588e5979f,Innovation Challenge,nasional,non_akademik,29/04/2023,0b687056-889e-4089-a780-4949c6a8700b,105941100322,AISYAH RAMDIYAH,13/09/2025 14:34:26,individu,Juara 2
+34fe668a-f1f5-49ed-8541-019cfe9a630f,Arts Competition,lokal,non_akademik,11/06/2023,72dd1b25-eaeb-4a53-a353-3f4951ea7c19,105741103621,Reski Aulia,13/09/2025 14:34:26,individu,Finalis
+423a041d-ccbf-4426-bca2-b0c9dc76a158,Cultural Performance,lokal,non_akademik,29/04/2024,226e061b-95ca-49f6-b718-45aa5152135c,105131100519,FITRA ARIANA,13/09/2025 14:34:26,individu,Juara 2
+325a56e9-f8a2-449b-b1fc-a217f560ab7a,Academic Excellence Award,nasional,akademik,01/08/2023,79582f97-458b-4bfc-a629-f87a6991f475,105721102119,RIFALDI,13/09/2025 14:34:26,individu,Juara 2
+b913f288-259d-4132-bcfa-f17c0af07343,Entrepreneurship Competition,regional,non_akademik,24/12/2024,bc992c4c-2732-429d-96a4-20c34152ac4b,105731105120,HAJRAH,13/09/2025 14:34:26,individu,Juara 2
+db5a2048-76ea-4f56-bd34-5d801dab820c,Conference Presentation,regional,akademik,24/04/2025,c8707967-76a2-4763-8b08-690e9a4a92bb,105501108822,Muhammad Risqullah Ammar,13/09/2025 14:34:26,individu,Juara 1
+56aa12bc-f470-4dac-8c68-99f2ace55433,Journal Publication,regional,akademik,24/04/2025,c8707967-76a2-4763-8b08-690e9a4a92bb,105501108822,Muhammad Risqullah Ammar,13/09/2025 14:34:26,individu,Juara 1
+7a51942d-01ea-4dff-bc6a-2a36a2095595,Programming Contest,internasional,non_akademik,07/01/2025,c8707967-76a2-4763-8b08-690e9a4a92bb,105501108822,Muhammad Risqullah Ammar,13/09/2025 14:34:26,individu,Juara 1
+436c747d-9a19-4b41-8e2d-4e3d82b93151,Lomba Karya Tulis Ilmiah,regional,akademik,16/11/2023,c8707967-76a2-4763-8b08-690e9a4a92bb,105501108822,Muhammad Risqullah Ammar,13/09/2025 14:34:26,individu,Juara 1
+cb959ed0-5ea6-4076-a9a2-86e8863a29d2,Community Service Award,regional,non_akademik,24/01/2025,07873146-f759-451b-91be-ed8543ae0380,105251101922,A. NURZAINAH RAMADHANI. M,13/09/2025 14:34:26,individu,Juara 2
+978dcb34-0aa0-409b-aaf0-9c08cf1e173b,Thesis Competition,lokal,akademik,15/03/2023,07873146-f759-451b-91be-ed8543ae0380,105251101922,A. NURZAINAH RAMADHANI. M,13/09/2025 14:34:26,individu,Peserta Terbaik
+66551a84-05f1-4879-9435-9b6fcc1b3902,Programming Contest,lokal,non_akademik,09/02/2025,5f88a79f-d4dd-49fe-930f-37ab8562f0bf,105351104321,ISMETH NURHADI,13/09/2025 14:34:26,individu,Juara 1
+2a0cc233-03a4-4d91-9dde-50cde5e2f954,Innovation Challenge,lokal,non_akademik,26/12/2022,8b21c2d7-9847-443e-8c5f-ac7c29c9273d,105361107219,AIS MAGFIRAH MAULANI,13/09/2025 14:34:26,individu,Finalis
+4b598c04-613d-4c16-9406-fc83a11fd7c0,Academic Excellence Award,regional,akademik,14/11/2023,43fd1c7c-b474-4c31-ae64-0432cb8ade6a,105611121619,M. ANAS,13/09/2025 14:34:26,individu,Juara 3
+9d62c9ac-9d16-4c0f-b60c-19c928060b33,Arts Competition,lokal,non_akademik,17/03/2025,01540bcb-6cda-4c0e-b97a-5c7a0f776497,105261111622,Muhammad Thoriq Ziyad,13/09/2025 14:34:26,individu,Juara 3
+e2c8847b-490b-4174-8623-d44a58cb85c4,Community Service Award,regional,non_akademik,03/09/2024,01540bcb-6cda-4c0e-b97a-5c7a0f776497,105261111622,Muhammad Thoriq Ziyad,13/09/2025 14:34:26,individu,Peserta Terbaik
+2bbd2ea3-7f6a-4b6e-84bd-15d24c75952e,Programming Contest,lokal,non_akademik,15/10/2024,01540bcb-6cda-4c0e-b97a-5c7a0f776497,105261111622,Muhammad Thoriq Ziyad,13/09/2025 14:34:26,individu,Peserta Terbaik
+a7a91b27-a9d3-4d57-9c21-a36eea0e9311,Community Service Award,lokal,non_akademik,08/05/2025,7e059ecf-9e94-44ba-af3f-bd7e7dfe3fd3,105841106522,A. FACHRI,13/09/2025 14:34:26,individu,Finalis
+efc657ba-5270-4dab-b572-1f89e4407c8d,Innovation Challenge,nasional,non_akademik,17/04/2025,7e059ecf-9e94-44ba-af3f-bd7e7dfe3fd3,105841106522,A. FACHRI,13/09/2025 14:34:26,individu,Peserta Terbaik
+d008e40a-bbf6-4c57-98e5-0766980e52bd,Innovation Challenge,nasional,non_akademik,16/04/2023,f91a1703-3d43-49e0-b948-d0cbb07111f3,105401111321,HILMY HAFIDAH,13/09/2025 14:34:26,individu,Juara 3
+5736cd3c-e84f-4c5f-ab17-ed6652ef9f1c,Academic Excellence Award,regional,akademik,07/04/2023,f91a1703-3d43-49e0-b948-d0cbb07111f3,105401111321,HILMY HAFIDAH,13/09/2025 14:34:26,individu,Juara 2
+cabbd1eb-4b0e-47fb-9264-45c4d72d11b7,Essay Competition,regional,akademik,26/08/2023,f91a1703-3d43-49e0-b948-d0cbb07111f3,105401111321,HILMY HAFIDAH,13/09/2025 14:34:26,individu,Peserta Terbaik
+86c1e126-af33-4781-b1c6-8c3d79f69248,Academic Writing Contest,lokal,akademik,29/03/2024,c38be0b9-7531-4756-a978-dd1782f6071d,105831102822,saddan,13/09/2025 14:34:26,individu,Finalis
+05d925c5-39d7-47c9-a8da-73efd19fdce0,Programming Contest,regional,non_akademik,03/01/2023,e9497fff-d374-4439-8f96-4a57b46734d0,105721144418,NIRMALA SARIDEVI,13/09/2025 14:34:26,individu,Juara 2
+545639c4-1d24-42f2-877a-79af71828e75,Thesis Competition,internasional,akademik,30/01/2024,e9497fff-d374-4439-8f96-4a57b46734d0,105721144418,NIRMALA SARIDEVI,13/09/2025 14:34:26,individu,Peserta Terbaik
+d0ee325e-5737-4e35-ab24-ffd9e195504a,Hackathon,lokal,non_akademik,15/12/2023,e9497fff-d374-4439-8f96-4a57b46734d0,105721144418,NIRMALA SARIDEVI,13/09/2025 14:34:26,individu,Juara 3
+ebaf9d4d-4c8e-48f8-b29d-d5fc7ceeb0ad,Research Paper Competition,regional,akademik,04/02/2025,a8022f85-ac84-4e34-ad54-a91204b0332c,105391100922,BAHRUR RAHMAN HASBA,13/09/2025 14:34:26,individu,Finalis
+384c84cf-0111-4960-96f7-9042bfa81d7b,Academic Writing Contest,nasional,akademik,07/03/2023,a8022f85-ac84-4e34-ad54-a91204b0332c,105391100922,BAHRUR RAHMAN HASBA,13/09/2025 14:34:26,individu,Juara 1
+c4aff4ea-2c71-4ad8-928a-005468552df3,Entrepreneurship Competition,regional,non_akademik,15/09/2023,71bdd1b3-d543-4922-b690-9383a436e0da,105741100322,Nismawati,13/09/2025 14:34:26,individu,Peserta Terbaik
+dadfa21b-6461-41c7-9fd5-0eb6772603dc,Academic Writing Contest,lokal,akademik,07/03/2025,71bdd1b3-d543-4922-b690-9383a436e0da,105741100322,Nismawati,13/09/2025 14:34:26,individu,Juara 2
+112a5184-757a-4f45-8ef2-f72965584904,Academic Excellence Award,lokal,akademik,27/01/2024,71bdd1b3-d543-4922-b690-9383a436e0da,105741100322,Nismawati,13/09/2025 14:34:26,individu,Finalis
+8d6f1d57-a4d8-471e-80a6-7c0d3dadff28,Sports Championship,lokal,non_akademik,15/01/2023,71bdd1b3-d543-4922-b690-9383a436e0da,105741100322,Nismawati,13/09/2025 14:34:26,individu,Peserta Terbaik
+ab5b2ebd-6385-45c9-a8a3-82169e9c89f6,Hackathon,lokal,non_akademik,03/05/2025,4ccca89d-e9cb-4279-9fa1-33f9ca4ee0c2,105721110023,Khusnul Fatimah ,13/09/2025 14:34:26,individu,Finalis
+2505ebe5-fa6a-4042-94ea-619d58bcb429,Journal Publication,regional,akademik,20/05/2023,6dbdc4b1-6927-4b3e-abeb-9b57d66234e8,105651103921,Rezki Astuti,13/09/2025 14:34:26,individu,Peserta Terbaik
+9693b46e-f142-4e64-a99f-d8777252b338,Cultural Performance,lokal,non_akademik,10/07/2025,6dbdc4b1-6927-4b3e-abeb-9b57d66234e8,105651103921,Rezki Astuti,13/09/2025 14:34:26,individu,Finalis
+7be09b00-7c02-49c2-8af3-60d5ac465a94,Design Competition,lokal,non_akademik,15/05/2025,6dbdc4b1-6927-4b3e-abeb-9b57d66234e8,105651103921,Rezki Astuti,13/09/2025 14:34:26,individu,Juara 3
+10b800ea-bf2e-4125-a7a6-5e8437772201,Design Competition,regional,non_akademik,18/01/2024,19b317b0-a0ce-4dfb-a7dc-6c4005e0f10a,105851101121,AHMAD RINALDI,13/09/2025 14:34:26,individu,Peserta Terbaik
+965261f9-0cb0-40d2-985a-fcc1a675b685,Cultural Performance,lokal,non_akademik,23/09/2023,19b317b0-a0ce-4dfb-a7dc-6c4005e0f10a,105851101121,AHMAD RINALDI,13/09/2025 14:34:26,individu,Juara 1
+7edc4bde-fc1a-4ff6-9ad2-bddd976f3c88,Entrepreneurship Competition,regional,non_akademik,23/06/2025,e9c12032-a6c7-412e-a951-9ef06035a20a,105811106917,ADI SYAHRAINI,13/09/2025 14:34:26,individu,Juara 2
+27b0ca8f-85ba-4bfa-9526-e7dfa5c1e5cc,Leadership Award,lokal,non_akademik,15/03/2023,cc076c97-b20d-40bc-894d-0271ff92f3a4,105611106021,AKRAMULLAH,13/09/2025 14:34:26,individu,Juara 3
+e9f1a54f-27b0-4c70-8a7d-64b70930b6ca,Sports Championship,regional,non_akademik,19/11/2024,cc076c97-b20d-40bc-894d-0271ff92f3a4,105611106021,AKRAMULLAH,13/09/2025 14:34:26,individu,Peserta Terbaik
+c841ecda-a490-4ef2-87b7-e6d5b0fc14cf,Design Competition,nasional,non_akademik,07/05/2023,cc076c97-b20d-40bc-894d-0271ff92f3a4,105611106021,AKRAMULLAH,13/09/2025 14:34:26,individu,Juara 3
+7f4a471e-5032-481a-916f-644cb1663176,Cultural Performance,lokal,non_akademik,20/04/2025,cc076c97-b20d-40bc-894d-0271ff92f3a4,105611106021,AKRAMULLAH,13/09/2025 14:34:26,individu,Juara 1
+0e3f5fec-750a-4921-a2c5-8643a113fa8d,Programming Contest,lokal,non_akademik,20/03/2024,a38ac56b-8b3a-4398-895a-65a8cfe4568d,105351102818,ISNANINGSI,13/09/2025 14:34:26,individu,Juara 3
+b65128d2-61e0-4af0-9aba-9b628e64e115,Thesis Competition,regional,akademik,14/04/2024,a38ac56b-8b3a-4398-895a-65a8cfe4568d,105351102818,ISNANINGSI,13/09/2025 14:34:26,individu,Peserta Terbaik
+de041918-3a5a-49ad-b1e4-f60b7fc25151,Entrepreneurship Competition,regional,non_akademik,11/12/2024,9ebdeb90-141d-402a-bff7-d74af7de10d0,105941101621,WAHYU ALFA REZA,13/09/2025 14:34:26,individu,Juara 1
+653554f1-4f29-4d7f-9d04-00809ccf5404,Design Competition,nasional,non_akademik,18/09/2023,9ebdeb90-141d-402a-bff7-d74af7de10d0,105941101621,WAHYU ALFA REZA,13/09/2025 14:34:26,individu,Juara 2
+aaf47490-0fe1-4abb-85f0-7f3cfa108500,Scientific Paper Competition,lokal,akademik,15/02/2023,d111287c-ff47-4e76-bac6-d7168fe7a6a3,105721113221,NURHAFIZAH,13/09/2025 14:34:26,individu,Juara 1
+7152114f-b4dd-4f5b-8a43-7051caff69d1,Programming Contest,regional,non_akademik,23/08/2024,dd1d9659-cd1d-437e-9dfa-ab5ab564be1d,105831104618,NORMAN MANSYUR,13/09/2025 14:34:26,individu,Juara 2
+125fbc5c-d20b-4b7c-bdc2-5272ecae0a7d,Entrepreneurship Competition,nasional,non_akademik,16/02/2025,dd1d9659-cd1d-437e-9dfa-ab5ab564be1d,105831104618,NORMAN MANSYUR,13/09/2025 14:34:26,individu,Juara 2
+968705ee-39aa-4479-937d-ee08a580e3b8,Programming Contest,regional,non_akademik,17/03/2024,fe7c046f-1982-4d6e-83cb-445c4c5d2900,105651102822,Muh. Mahdi fatirrizqullah,13/09/2025 14:34:26,individu,Finalis
+40b8a78b-a16c-4bcc-a433-cfbccfd91e41,Hackathon,lokal,non_akademik,03/03/2023,fe7c046f-1982-4d6e-83cb-445c4c5d2900,105651102822,Muh. Mahdi fatirrizqullah,13/09/2025 14:34:26,individu,Finalis
+a794956d-585f-486e-8c90-ec267882a0ab,Design Competition,regional,non_akademik,29/01/2023,b8d8db77-940b-482c-a871-6c9276c92d94,105311105520,SUNARTI RASDIN,13/09/2025 14:34:26,individu,Finalis
+5506f52a-9a69-4c45-80ed-0db33d51af0a,Design Competition,nasional,non_akademik,28/02/2025,b8d8db77-940b-482c-a871-6c9276c92d94,105311105520,SUNARTI RASDIN,13/09/2025 14:34:26,individu,Peserta Terbaik
+5d44a7b2-8ba7-4c07-8b67-d7ee581d2821,Essay Competition,lokal,akademik,23/07/2023,b8d8db77-940b-482c-a871-6c9276c92d94,105311105520,SUNARTI RASDIN,13/09/2025 14:34:26,individu,Finalis
+c384aadc-ac3b-44c5-9bf5-658d4a03c1c1,Essay Competition,lokal,akademik,24/02/2023,536db61e-c480-4fb7-88e0-e7e30cf06951,105271104620,RAHMAN FIRDAUS,13/09/2025 14:34:26,individu,Juara 1
+701015da-c668-4ca1-a981-7bf5485b8eb5,Sports Championship,regional,non_akademik,11/11/2024,332ae899-7fec-4bcc-9f6e-22d4d14c758a,105241101923,Anisa Mutmainnah,13/09/2025 14:34:26,individu,Peserta Terbaik
+14e17c30-8aeb-4513-9f34-77f4d53fb167,Entrepreneurship Competition,nasional,non_akademik,04/02/2025,332ae899-7fec-4bcc-9f6e-22d4d14c758a,105241101923,Anisa Mutmainnah,13/09/2025 14:34:26,individu,Juara 3
+c6db3bfb-bf19-498e-808d-c1d46098dd16,Lomba Karya Tulis Ilmiah,nasional,akademik,21/10/2023,6cf14145-f992-422d-bb14-a7974cfc59d2,105391101820,Nur Rezki Amalia,13/09/2025 14:34:26,individu,Peserta Terbaik
+7e8fb070-3c1f-4c50-a51f-7b33fe367025,Programming Contest,regional,non_akademik,09/11/2024,6cf14145-f992-422d-bb14-a7974cfc59d2,105391101820,Nur Rezki Amalia,13/09/2025 14:34:26,individu,Finalis
+f033ba7e-c8d0-465d-939f-ef5cf2eef255,Lomba Karya Tulis Ilmiah,regional,akademik,28/12/2023,6cf14145-f992-422d-bb14-a7974cfc59d2,105391101820,Nur Rezki Amalia,13/09/2025 14:34:26,individu,Finalis
+9192b019-bada-4fe4-81ec-f7238e605c0d,Programming Contest,lokal,non_akademik,27/05/2024,44fc42c4-c945-4a47-b4b5-13da67c59b7b,105361100219,"WAHYU, M. YANI",13/09/2025 14:34:26,individu,Peserta Terbaik
+899fde2d-57f5-4f18-a07b-6de63d69a73e,Scientific Paper Competition,regional,akademik,13/08/2024,2f14be8c-6a16-45d2-bed5-a09d9b56906a,105651104320,FITRA ALIM ZNOW,13/09/2025 14:34:26,individu,Juara 1
+1a093d40-b4d3-4fa9-b581-9c53dca623f6,Innovation Challenge,regional,non_akademik,18/04/2024,386cda73-4a06-49e0-8c7c-19ea79c271a0,105351105221,NURHIKMAH,13/09/2025 14:34:26,individu,Peserta Terbaik
+4f800880-7746-4e74-9f22-5a09803c0343,Academic Writing Contest,regional,akademik,23/01/2023,b1fc048c-26dc-443b-ad8a-12c6979a6abc,105351109119,AHMAT SUPATMAN,13/09/2025 14:34:26,individu,Peserta Terbaik
+14180b34-111c-4865-93a6-2df0d109688a,Research Paper Competition,nasional,akademik,23/12/2024,b1fc048c-26dc-443b-ad8a-12c6979a6abc,105351109119,AHMAT SUPATMAN,13/09/2025 14:34:26,individu,Finalis
+98609dd1-ebf9-4ba5-aacb-6fd10c8d13be,Arts Competition,nasional,non_akademik,10/04/2024,b1fc048c-26dc-443b-ad8a-12c6979a6abc,105351109119,AHMAT SUPATMAN,13/09/2025 14:34:26,individu,Peserta Terbaik
+6ea79cbe-e22d-4e77-99be-2ee38249aefd,Sports Championship,lokal,non_akademik,12/01/2023,b7818a5b-00ff-4d9b-bef2-9882cef09b06,105461262323,FATHANAH SYAMSUDDIN,13/09/2025 14:34:26,individu,Peserta Terbaik
+f006f6a1-e982-479b-86fa-dc87fb33268f,Academic Writing Contest,lokal,akademik,06/11/2023,b7818a5b-00ff-4d9b-bef2-9882cef09b06,105461262323,FATHANAH SYAMSUDDIN,13/09/2025 14:34:26,individu,Juara 2
+f3961e62-ee9b-4968-b5ae-96c6fb496fc9,Scientific Paper Competition,lokal,akademik,22/09/2024,b7818a5b-00ff-4d9b-bef2-9882cef09b06,105461262323,FATHANAH SYAMSUDDIN,13/09/2025 14:34:26,individu,Peserta Terbaik
+1e32b355-bdd6-4905-a6a8-5af861532c90,Research Paper Competition,nasional,akademik,14/02/2025,81e174d4-5178-4cf2-a421-6a25c88b16b2,105421104519,MUHAMMAD RISQULLAH AMMAR,13/09/2025 14:34:26,individu,Finalis
+b9310203-c1d5-414f-a4c7-2909f48e9406,Research Paper Competition,lokal,akademik,21/05/2024,81e174d4-5178-4cf2-a421-6a25c88b16b2,105421104519,MUHAMMAD RISQULLAH AMMAR,13/09/2025 14:34:26,individu,Juara 2
+0d9a7131-d98e-4e7d-9bc9-861971b29094,Cultural Performance,regional,non_akademik,16/05/2024,81e174d4-5178-4cf2-a421-6a25c88b16b2,105421104519,MUHAMMAD RISQULLAH AMMAR,13/09/2025 14:34:26,individu,Juara 1
+c66a9329-83ad-4921-aae4-f21af2ae8d89,Arts Competition,lokal,non_akademik,11/08/2024,000359b0-a682-4d7a-89e1-e68ee3a3599f,105411100520,ALAMSYAH,13/09/2025 14:34:26,individu,Juara 1
+c6a802a3-9dd0-4bfa-8019-7245d883ae9d,Entrepreneurship Competition,internasional,non_akademik,06/02/2024,000359b0-a682-4d7a-89e1-e68ee3a3599f,105411100520,ALAMSYAH,13/09/2025 14:34:26,individu,Peserta Terbaik
+c37ef97b-c2bf-4666-8641-63b86b7e1bf2,Thesis Competition,nasional,akademik,13/07/2023,247a6472-abaf-4996-bd9e-fffa31687016,105841116522,ABD. RAHMAN WAHID,13/09/2025 14:34:26,individu,Juara 1
+ecd99a6c-5df1-4fc3-a56f-b9f5726ac3e2,Innovation Challenge,lokal,non_akademik,29/06/2025,247a6472-abaf-4996-bd9e-fffa31687016,105841116522,ABD. RAHMAN WAHID,13/09/2025 14:34:26,individu,Finalis
+7c524ed9-4e17-4810-b11a-658aca1bba43,Entrepreneurship Competition,regional,non_akademik,29/11/2024,00cd1764-0e2c-4a64-95a5-d27f04dff4dc,105241109222,Wida Puspa Mokolintad,13/09/2025 14:34:26,individu,Peserta Terbaik
+50408ffc-5377-4208-b19a-6aad38a7904c,Conference Presentation,lokal,akademik,03/07/2024,00cd1764-0e2c-4a64-95a5-d27f04dff4dc,105241109222,Wida Puspa Mokolintad,13/09/2025 14:34:26,individu,Finalis
+d3a6149a-bbfd-4d89-8bef-2597a79daf11,Conference Presentation,lokal,akademik,18/02/2025,2b9cb1e6-bbb5-429e-afcf-b440bf0f4286,105741102820,RABIATUL ADAWIAH,13/09/2025 14:34:26,individu,Juara 2
+d987552d-33c4-49c2-9e6d-943ac04f01f4,Thesis Competition,lokal,akademik,26/01/2025,dd98c56e-4dd5-4b2a-8bd6-2ecc3ba58dd4,105721121819,ROIDAH RAFIFATUL MUFLIHUN,13/09/2025 14:34:26,individu,Juara 2
+3e83acd5-efff-4d91-9efa-66914114c901,Design Competition,nasional,non_akademik,30/12/2023,fa98667f-9c12-4947-85ed-c727aacfb934,105251103722,HANA TUO,13/09/2025 14:34:26,individu,Juara 3
+0ae8a966-f804-4229-a9b0-9971af78cdd7,Arts Competition,regional,non_akademik,14/05/2023,fa98667f-9c12-4947-85ed-c727aacfb934,105251103722,HANA TUO,13/09/2025 14:34:26,individu,Peserta Terbaik
+e88ef47c-e7fe-4537-a30f-cba55ddd26e1,Entrepreneurship Competition,lokal,non_akademik,06/06/2023,fa98667f-9c12-4947-85ed-c727aacfb934,105251103722,HANA TUO,13/09/2025 14:34:26,individu,Finalis
+7bbbed72-e2b5-476a-acdc-06032ab7e424,Entrepreneurship Competition,regional,non_akademik,10/01/2025,a1c8a10e-d232-4312-acf7-406bbd5868ab,105261106021,M. AMRI,13/09/2025 14:34:26,individu,Peserta Terbaik
+6e62b9fe-6f67-41ae-a735-0776e7642eb0,Programming Contest,regional,non_akademik,08/05/2025,a1c8a10e-d232-4312-acf7-406bbd5868ab,105261106021,M. AMRI,13/09/2025 14:34:26,individu,Juara 1
+3e366b86-1c9c-4799-9b43-ae0b4c791d28,Lomba Karya Tulis Ilmiah,regional,akademik,09/11/2023,8355e03c-27af-4f08-bbad-109150b44432,105731122419,FIRMANSYAH,13/09/2025 14:34:26,individu,Peserta Terbaik
+8e0796f0-fba3-4111-a871-4fe1b3e10092,Entrepreneurship Competition,nasional,non_akademik,24/05/2025,c975ac29-6e4f-405b-9e51-3bd766fac94a,105611105520,SUDIRMAN,13/09/2025 14:34:26,individu,Juara 2
+a625bc14-6300-4abc-be09-3258bcfdce0c,Programming Contest,internasional,non_akademik,29/08/2023,c975ac29-6e4f-405b-9e51-3bd766fac94a,105611105520,SUDIRMAN,13/09/2025 14:34:26,individu,Juara 2
+9d141977-c67e-4fc2-a70c-35f0da4fd6b9,Hackathon,lokal,non_akademik,04/06/2025,b2c79299-f50d-4815-8ec9-408193c1d0c8,105751100921,FAJAR EKO PURNOMO RUSTAN,13/09/2025 14:34:26,individu,Juara 1
+1dd2fd07-85fe-4632-9293-94bf2d92211f,Leadership Award,nasional,non_akademik,08/03/2023,b2c79299-f50d-4815-8ec9-408193c1d0c8,105751100921,FAJAR EKO PURNOMO RUSTAN,13/09/2025 14:34:26,individu,Juara 2
+1fa4bb5e-e1c5-4271-bcdd-d09082978914,Entrepreneurship Competition,lokal,non_akademik,14/07/2023,b2c79299-f50d-4815-8ec9-408193c1d0c8,105751100921,FAJAR EKO PURNOMO RUSTAN,13/09/2025 14:34:26,individu,Juara 3
+53d7b219-7bc3-4e08-bddc-338cd65414f0,Academic Writing Contest,regional,akademik,15/01/2024,dbc178d7-2f66-4b95-8165-545c39b712e7,105961106721,ADITYA ADLU RAHMAN,13/09/2025 14:34:26,individu,Finalis
+35e80e3f-799b-4c92-b409-e8fb21a82f28,Hackathon,lokal,non_akademik,09/05/2025,fb809c66-0008-4202-8c33-de6b04f19796,105641103820,FUJI LESTARI AR,13/09/2025 14:34:26,individu,Finalis
+b96db9ed-a3f8-4ae6-bdd5-380ae60a3191,Design Competition,nasional,non_akademik,11/10/2024,fb809c66-0008-4202-8c33-de6b04f19796,105641103820,FUJI LESTARI AR,13/09/2025 14:34:26,individu,Juara 3
+bc4eaf47-ab11-4114-81df-9b6e1f31b866,Community Service Award,regional,non_akademik,26/05/2025,fb809c66-0008-4202-8c33-de6b04f19796,105641103820,FUJI LESTARI AR,13/09/2025 14:34:26,individu,Peserta Terbaik
+60a63afc-5e20-463a-8430-f05f833c06ee,Conference Presentation,nasional,akademik,22/06/2023,fb809c66-0008-4202-8c33-de6b04f19796,105641103820,FUJI LESTARI AR,13/09/2025 14:34:26,individu,Juara 2
+d5013143-4c05-4843-813e-532abf4312fb,Entrepreneurship Competition,lokal,non_akademik,11/04/2025,ea15e89f-be62-4de0-9222-67b150a0f878,105651102723,Luthfiah Zain,13/09/2025 14:34:26,individu,Finalis
+3138f098-5ddd-4f31-9c4c-643e165cd8a5,Research Paper Competition,regional,akademik,22/10/2023,ea15e89f-be62-4de0-9222-67b150a0f878,105651102723,Luthfiah Zain,13/09/2025 14:34:26,individu,Juara 1
+cba23b23-fa4d-4d95-9105-05f7c38599e0,Conference Presentation,lokal,akademik,27/02/2023,f28281e1-6280-47ad-b2c4-6b1c264b4e7c,105731111719,HAMZAH FANSYURI NUR,13/09/2025 14:34:26,individu,Juara 2
+ed7ff5d1-9d8e-49ca-8d58-2de2dc486fe0,Hackathon,regional,non_akademik,25/06/2025,d7a1166c-3b24-48cd-bef5-a8d57d17ccb7,105241100721,NURWAHIDAH ,13/09/2025 14:34:26,individu,Juara 1
+e0dbd611-88c1-4a2d-9e6e-5593907cb549,Thesis Competition,lokal,akademik,20/03/2024,d7a1166c-3b24-48cd-bef5-a8d57d17ccb7,105241100721,NURWAHIDAH ,13/09/2025 14:34:26,individu,Juara 3
+335c7faf-faf3-452f-a5ac-813a2bbd6428,Essay Competition,lokal,akademik,16/08/2023,d7a1166c-3b24-48cd-bef5-a8d57d17ccb7,105241100721,NURWAHIDAH ,13/09/2025 14:34:26,individu,Finalis
+a2d4645c-47e0-4b74-a995-e8e35af88473,Arts Competition,regional,non_akademik,20/06/2025,6096e68e-4c46-4bc8-85a6-85823d62fa61,105651109921,SARI'UL FAHMIATI FADILAH,13/09/2025 14:34:26,individu,Peserta Terbaik
+68af6c94-7f96-4736-9af1-55370a70668a,Scientific Paper Competition,nasional,akademik,29/11/2023,5117ae3f-25d7-4937-bb9e-bbca87b84cfd,105391100920,Kharisma Saputri,13/09/2025 14:34:26,individu,Juara 3
+0de51878-5d40-4f60-9430-79d764504a55,Sports Championship,regional,non_akademik,28/04/2024,5117ae3f-25d7-4937-bb9e-bbca87b84cfd,105391100920,Kharisma Saputri,13/09/2025 14:34:26,individu,Finalis
+95fc39c7-399c-491c-bfe5-ea57bdabe98c,Hackathon,regional,non_akademik,07/03/2024,5117ae3f-25d7-4937-bb9e-bbca87b84cfd,105391100920,Kharisma Saputri,13/09/2025 14:34:26,individu,Juara 1
+194f588d-165a-4fa4-98eb-fe396a74a391,Research Paper Competition,nasional,akademik,27/07/2023,5117ae3f-25d7-4937-bb9e-bbca87b84cfd,105391100920,Kharisma Saputri,13/09/2025 14:34:26,individu,Finalis
+b48d9a1f-7dea-44de-a0c7-5cd074862a08,Leadership Award,regional,non_akademik,31/07/2025,fd03c0e6-c1be-4379-b9dc-2ac14f151202,105361100721,ABDILLAH KHOFIAL LUTHFI ,13/09/2025 14:34:26,individu,Juara 1

@@ -1,0 +1,28 @@
+{
+  "creation_timestamp": "20250913_143426",
+  "total_students": 112,
+  "students_with_achievements": 67,
+  "total_achievements": 130,
+  "students_with_organizations": 84,
+  "total_organizational_records": 137,
+  "achievement_distribution": {
+    "akademik": 48,
+    "non_akademik": 82
+  },
+  "level_distribution": {
+    "regional": 51,
+    "lokal": 50,
+    "nasional": 24,
+    "internasional": 5
+  },
+  "organization_distribution": {
+    "arts": 22,
+    "social": 22,
+    "technology": 20,
+    "sports": 20,
+    "volunteer": 19,
+    "academic": 19,
+    "religious": 15
+  },
+  "leadership_positions": 39
+}

@@ -1,0 +1,38 @@
+🏛️ ORGANIZATIONAL DATA QUALITY REPORT
+==================================================
+
+📊 INVOLVEMENT STATISTICS:
+-------------------------
+• Total Students: 112
+• Students with Involvement: 105 (93.8%)
+• Average Organizations per Student: 2.39
+• Students with Leadership Roles: 53
+
+📈 INVOLVEMENT DISTRIBUTION:
+------------------------------
+• No Involvement (0): 7 students (6.2%)
+• Low (1-2 orgs): 61 students (54.5%)
+• Moderate (3-4 orgs): 37 students (33.0%)
+• High (5+ orgs): 7 students (6.2%)
+
+🏢 ORGANIZATION TYPE DISTRIBUTION:
+-----------------------------------
+• Academic: 48 students (42.9%)
+• Social: 32 students (28.6%)
+• Professional: 54 students (48.2%)
+• Student Government: 35 students (31.2%)
+• Religious: 21 students (18.8%)
+• Special Interest: 44 students (39.3%)
+
+👑 LEADERSHIP ANALYSIS:
+-------------------------
+• Students with Leadership: 53 (47.3%)
+• Average Leadership Duration: 83.9 months
+• Highest Leadership Level Achieved: 2
+
+✅ DATA QUALITY INDICATORS:
+------------------------------
+• No Missing Values: True
+• Realistic Involvement Rates: False
+• Diverse Organization Types: 2.09 avg types per student
+• Reasonable Duration Values: 9.4 avg months

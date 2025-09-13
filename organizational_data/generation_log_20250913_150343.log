@@ -1,0 +1,32 @@
+2025-09-13 15:03:43,172 - OrganizationalDataGenerator - INFO - Initialized 30 organizations across 6 categories
+2025-09-13 15:03:43,179 - OrganizationalDataGenerator - INFO - Generating organizational data for 112 students...
+2025-09-13 15:03:43,185 - OrganizationalDataGenerator - INFO - Processed 1/112 students - low involvement
+2025-09-13 15:03:43,208 - OrganizationalDataGenerator - INFO - Processed 21/112 students - high involvement
+2025-09-13 15:03:43,229 - OrganizationalDataGenerator - INFO - Processed 41/112 students - moderate involvement
+2025-09-13 15:03:43,245 - OrganizationalDataGenerator - INFO - Processed 61/112 students - moderate involvement
+2025-09-13 15:03:43,258 - OrganizationalDataGenerator - INFO - Processed 81/112 students - none involvement
+2025-09-13 15:03:43,272 - OrganizationalDataGenerator - INFO - Processed 101/112 students - moderate involvement
+2025-09-13 15:03:43,278 - OrganizationalDataGenerator - INFO - Generated 261 organizational involvements
+2025-09-13 15:03:43,285 - OrganizationalDataGenerator - INFO - Generating organizational features dataset...
+2025-09-13 15:03:43,355 - OrganizationalDataGenerator - INFO - Exported detailed organizational data to: organizational_data/organizational_involvements_20250913_150343.csv
+2025-09-13 15:03:43,375 - OrganizationalDataGenerator - INFO - Exported features data to: organizational_data/organizational_features_20250913_150343.csv
+2025-09-13 15:03:43,397 - root - ERROR - Generation failed: Object of type int64 is not JSON serializable
+Traceback (most recent call last):
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\organizational_data_generator.py", line 765, in main
+    generator.export_data(organizational_df, features_df)
+  File "G:\My Drive\A. SKRIPSI\program\program klasifikasi\klasifikasi-prestasi\organizational_data_generator.py", line 628, in export_data
+    json.dump(export_metadata, f, indent=2)
+  File "C:\Python312\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Python312\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Python312\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable
